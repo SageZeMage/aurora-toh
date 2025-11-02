@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Tome of Heroes — Magic Items</name>
+    <description>Magic items from Tome of Heroes (mundane equipment excluded).</description>
+    <update version="1.0.0">
+      <file name="toh-items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-items.xml" />
+    </update>
+  </info>
+  <element name="Memento Mori" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Memento_Mori">
+    <description>As long as you have the memento mori in your possession, you don't require food, drink, or sleep. As an action, you can draw on all the stored memory at once, and you receive the effects of a potion of heroism. When the effect expires, the memento mori loses its magic.</description>
+    <sheet>
+      <description>As long as you have the memento mori in your possession, you don't require food, drink, or sleep. As an action, you can draw on all the stored memory at once, and you receive the effects of a potion of heroism. When the effect expires, the memento mori loses its magic.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Alseid's Peony" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Alseid_s_Peony">
+    <description>Themes: Guidance, secrets, and teamwork
+Environments: In druidic circles, along animal paths, beside anthills
+Alseid's peony is a flowering plant with large, many-petaled blooms in shades of white, pink, and red. Its flowers have bright yellow centers and close at night or in cloudy conditions.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 264, 'entries': ["As an action, you can tear an alseid peony bloom from its stem to summon a small, red-petaled creature called a bloomling. The blooming uses the statistics of an awakened shrub and lasts for 1 hour or until destroyed. It is friendly to you and your companions. In combat, roll initiative for the shrub, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the shrub, it defends itself from hostile creatures but otherwise takes no actions. At the end of the duration or when it is destroyed, the bloomling crumbles into a pile of petals and sticks."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 264, 'entries': ["While holding a handful of alseid peony petals, you can spend 10 minutes concentrating on a specific location, then scatter the petals before you. The petals fall gently to the ground and land in the shape of an arrow, pointing toward the location you imagined. The petals scatter and don't land in the shape of an arrow if the location doesn't exist or if the location is on another plane of existence. A clump of petals forms at the point of the arrow if a major obstacle exists between your current location and the desired location, such as a magical barrier, a miles-long wall, or a desert, river, or other naturally occurring obstacle. This wort requires 2 cuttings of alseid peony."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 264, 'entries': ["A garden of alseid peonies that has been cultivated for at least 4 weeks whispers secrets, lore, and rumors to those who listen. Each peony bloom whispers, in the same language and voice as the original speaker, any words spoken within the bounds of the garden since the peony's first blooming. To those standing in or near the garden, these whispers sound like wind through leaves, but a creature can put an ear next to a bloom to hear everything the bloom whispers. The peonies have no intelligence and don't differentiate truth from lies or past from present or future. They simply repeat words spoken in the garden. For particularly old alseid peony gardens, the peonies might whisper fragments of conversations out of order or from different years. In addition, the zone of truth spell can't be cast inside of or within 100 feet of the garden, but creatures that can naturally distinguish truth from lies, such as planetars, know which whispers are lies."]}</description>
+    <sheet>
+      <description>Themes: Guidance, secrets, and teamwork
+Environments: In druidic circles, along animal paths, beside anthills
+Alseid's peony is a flowering plant with large, many-petaled blooms in shades of white, pink, and red. Its flowers have bright yellow centers and close at night or in cloudy conditions.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 264, 'entries': ["As an action, you can tear an alseid peony bloom from its stem to summon a small, red-petaled creature called a bloomling. The blooming uses the statistics of an awakened shrub and lasts for 1 hour or until destroyed. It is friendly to you and your companions. In combat, roll initiative for the shrub, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the shrub, it defends itself from hostile creatures but otherwise takes no actions. At the end of the duration or when it is destroyed, the bloomling crumbles into a pile of petals and sticks."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 264, 'entries': ["While holding a handful of alseid peony petals, you can spend 10 minutes concentrating on a specific location, then scatter the petals before you. The petals fall gently to the ground and land in the shape of an arrow, pointing toward the location you imagined. The petals scatter and don't land in the shape of an arrow if the location doesn't exist or if the location is on another plane of existence. A clump of petals forms at the point of the arrow if a major obstacle exists between your current location and the desired location, such as a magical barrier, a miles-long wall, or a desert, river, or other naturally occurring obstacle. This wort requires 2 cuttings of alseid peony."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 264, 'entries': ["A garden of alseid peonies that has been cultivated for at least 4 weeks whispers secrets, lore, and rumors to those who listen. Each peony bloom whis</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Asphodel" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Asphodel">
+    <description>Themes: Death, sacrifice, and passage to and from the afterlife
+Environments: Battlefields, graveyards, hilltops
+Asphodel is a hardy, flowering plant with tufted leaves on elongated stems, and white or yellow flowers.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 264, 'entries': ["As an action, you can eat half of an asphodel bloom and place the rest inside the mouth of a dead creature to see the last minute of the creature's life through its eyes. Afterwards, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."]}
+{'type': 'entries', 'name': 'Ceremony Wort (4th Level)', 'page': 264, 'entries': ["You can bury a prized possession of at least uncommon rarity alongside asphodel to have advantage on death saving throws for the next 4 hours. Burying the possession requires 1 minute of work. Up to five other creatures can take part in the ceremony, though each must provide their own possession. A creature can retrieve a buried item at any time, ending the effect on the item's owner. Once a creature has benefited from asphodel in this way, it can't do so again until 3 days have passed. This wort requires you to bury an object in the soil beside a whole, healthy asphodel plant and doesn't require a specific number of cuttings."]}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 264, 'entries': ["A garden of asphodel that has been cultivated for at least 12 weeks can return life to a creature that has been dead for no more than 1 year and 1 day and that didn't die of old age. After 1d8 hours in the field, the dead creature is returned to life as if it had been the target of the resurrection spell. The field of asphodel decays and wastes away after the spell has been cast and can't be regrown in that field for 10 years and 1 day. When cultivating asphodel, the gardener can set parameters on this effect, such as affecting only humanoids or requiring a password to activate the magic."]}</description>
+    <sheet>
+      <description>Themes: Death, sacrifice, and passage to and from the afterlife
+Environments: Battlefields, graveyards, hilltops
+Asphodel is a hardy, flowering plant with tufted leaves on elongated stems, and white or yellow flowers.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 264, 'entries': ["As an action, you can eat half of an asphodel bloom and place the rest inside the mouth of a dead creature to see the last minute of the creature's life through its eyes. Afterwards, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."]}
+{'type': 'entries', 'name': 'Ceremony Wort (4th Level)', 'page': 264, 'entries': ["You can bury a prized possession of at least uncommon rarity alongside asphodel to have advantage on death saving throws for the next 4 hours. Burying the possession requires 1 minute of work. Up to five other creatures can take part in the ceremony, though each must provide their own possession. A creature can retrieve a buried item at any time, ending the effect on the item's owner. Once a creature has benefited from asphodel in this way, it can't do so again until 3 days have passed. This wort requires you to bury an object in the soil beside a whole, healthy asphodel plant and doesn't require a specific number of cuttings."]}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 264, 'entries': ["A garden of asphodel that has been cultivated for at least 12 weeks can return life to a creature that has been dead for no more than 1 year and 1 day and that didn't die of old age. After 1d8 hours in the field, the dead creature is returned to life as if it had been the target of the resurrection spell. The field of asphodel decays and wastes away after the spell has been cast and can't be regrown in that field for 10 years and 1 day. When cultivating asphodel, the gardener can set parameters on this effect, such as affecting only humanoids or requiring a password to activate the magic."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Bright Bishop Sage" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Bright_Bishop_Sage">
+    <description>Themes: Protection, sanctuary, and purification
+Environments: Churches and temples, outside kitchen doors, near druidic circles
+Bright bishop sage is an evergreen shrub with woody stems and small blue and purple flowers. Its short, broad leaves have fine hairs, giving them a soft texture.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ['As an action, you can burn a bundle of bright bishop sage to protect one creature, doorway, or object. The creature is protected as if it had been the target of the protection from evil and good spell, except the creature is protected from only celestials, fiends, and undead.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 265, 'entries': ['As an action, you can sprinkle chopped sage on or in up to six plates, bowls, or glasses of nonmagical food or drink. The food and drink are purified and rendered free of poison and disease. This wort requires 2 cuttings of bright bishop sage.']}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 264, 'entries': ["A garden of bright bishop sage that has been cultivated for at least 8 weeks is protected by heavenly magic. Aberrations, elementals, fey, fiends, and undead can't enter the garden or a space within 15 feet of the garden, and dead bodies interred in the garden or within 15 feet of it can't be turned into undead."]}</description>
+    <sheet>
+      <description>Themes: Protection, sanctuary, and purification
+Environments: Churches and temples, outside kitchen doors, near druidic circles
+Bright bishop sage is an evergreen shrub with woody stems and small blue and purple flowers. Its short, broad leaves have fine hairs, giving them a soft texture.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ['As an action, you can burn a bundle of bright bishop sage to protect one creature, doorway, or object. The creature is protected as if it had been the target of the protection from evil and good spell, except the creature is protected from only celestials, fiends, and undead.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 265, 'entries': ['As an action, you can sprinkle chopped sage on or in up to six plates, bowls, or glasses of nonmagical food or drink. The food and drink are purified and rendered free of poison and disease. This wort requires 2 cuttings of bright bishop sage.']}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 264, 'entries': ["A garden of bright bishop sage that has been cultivated for at least 8 weeks is protected by heavenly magic. Aberrations, elementals, fey, fiends, and undead can't enter the garden or a space within 15 feet of the garden, and dead bodies interred in the garden or within 15 feet of it can't be turned into undead."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Champion's Lavender" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Champion_s_Lavender">
+    <description>Themes: Devotion, swift healing, and truth
+Environments: Near shrines, where vows were honored, after steadfast vigils
+Champion's lavender is a flowering shrub with narrow leaves and blue, violet, or lilac flowers growing up and around spike-like stems.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ["As an action, you can press a sprig of champion's lavender to a creature's wound to swiftly close it and dull the ache or bring reprieve to a tired creature. The target can immediately spend one of its Hit Dice to regain hit points as if it was spending Hit Dice at the end of a resting, or the target can make a DC 13 Constitution saving throw, recovering from one level of exhaustion on a success."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 265, 'entries': ["If you spend 10 minutes chanting and walking the perimeter of an area no larger than a 40-foot cube while waving a bundle of lit and smoking champion's lavender, you can create a ward to keep unseen intruders at bay. If you use a censer to concentrate the smoke, you can create a ward on up to an 80-foot cube. The ward lasts 8 hours. While an invisible creature is in the warded area, it is limned with a purple glow, and each creature that was present when you warded the area is mentally alerted to its presence."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 265, 'entries': ["A garden of champion's lavender that has been cultivated for at least 4 weeks is a shrine to truth, marking any trespassing  oathbreakers and deceivers. While in the garden, a creature that has broken a vow or committed a deception that intentionally caused another great harm is marked with a dimly glowing purple mark, symbol, or rune chosen by the cultivating gardener (typically a rune or symbol denoting guilt). The mark remains until the creature exits the garden. This mark doesn't appear if the creature has found justice or redemption for the act that would have triggered the garden's effect, including paying the appropriate fines, serving the community, or atoning at a temple. The garden's magic doesn't distinguish between broken vows or deceptions, and it doesn't mark creatures that have committed only minor or unintentional deceptions, such as failure to carry out promised plans or the unknowing spread of misinformation."]}</description>
+    <sheet>
+      <description>Themes: Devotion, swift healing, and truth
+Environments: Near shrines, where vows were honored, after steadfast vigils
+Champion's lavender is a flowering shrub with narrow leaves and blue, violet, or lilac flowers growing up and around spike-like stems.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ["As an action, you can press a sprig of champion's lavender to a creature's wound to swiftly close it and dull the ache or bring reprieve to a tired creature. The target can immediately spend one of its Hit Dice to regain hit points as if it was spending Hit Dice at the end of a resting, or the target can make a DC 13 Constitution saving throw, recovering from one level of exhaustion on a success."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 265, 'entries': ["If you spend 10 minutes chanting and walking the perimeter of an area no larger than a 40-foot cube while waving a bundle of lit and smoking champion's lavender, you can create a ward to keep unseen intruders at bay. If you use a censer to concentrate the smoke, you can create a ward on up to an 80-foot cube. The ward lasts 8 hours. While an invisible creature is in the warded area, it is limned with a purple glow, and each creature that was present when you warded the area is mentally alerted to its presence."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 265, 'entries': ["A garden of champion's lavender that has been cultivated for at least 4 weeks is a shrine to truth, marking any trespassing  oathbreakers and deceivers. While in the garden, a creature that has broken a vow or committed a deception that intentionally caused another great harm is marked with a dimly glowing purple mark, symbol, or rune chosen by the cultivating gardener (typically a rune or symbol denoting guilt). The mark remains until the creature exits the garden. This mark doesn't appear if the creature has found justice or redemption for the act that would have triggered the ga</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Chaunic Clover" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Chaunic_Clover">
+    <description>Themes: Prosperity, luck, and risk
+Environments: At the end of rainbows, near fairy circles, near places where major breakthroughs, discoveries, or successes occurred
+Chaunic clover is a low-growing, sprawling plant with leaves growing in threes or fours on each stem. Its flowers are small and spiky and are typically white, purple, or yellow.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ['As an action, you can place a sprig of chaunic clover into a pouch of copper or silver pieces, totaling no more than 99 pieces, and roll a d100. If you roll a number higher than the amount of coins in the pouch, the number of coins doubles. If your roll is a 100, the number of coins doubles and each piece magically changes into gold. If your roll is a 1, all of the coins in the pouch are destroyed and a fey creature on the same plane as you learns of your failed attempt and takes an interest in you. Regardless of the outcome, the sprig of clover is destroyed after it is activated.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 265, 'entries': ['As an action, you can place a pot, kettle, or cup with a sprig of chaunic clover inside it under the shade of an old tree to summon a magic cauldron for 10 minutes. The first time you summon this cauldron, it is empty, and it becomes magically bound to you. Each time you use this wort thereafter, you summon the same cauldron. When not summoned by you, the cauldron exists on a tiny demiplane, and only a wish spell can access it. The cauldron can hold only coins, but it can hold any number of them. You can dismiss the cauldron early as an action. If you die, the cauldron is no longer magically bound to you, becomes nonmagical, and appears in the shade beneath one of the trees where you previously summoned it, holding whatever coins you stored in it. If you return to life and use this wort again, you become bound to a new empty cauldron. This wort requires 1 cutting of chaunic clover.']}
+{'type': 'entries', 'name': 'Cultivated Wort (8th Level)', 'page': 266, 'entries': ['A garden of chaunic clover that has been cultivated for at least 4 weeks causes nearby plant life to become healthy and bountiful. Within 1 mile of the garden, plants grow lush and full and are resistant to disease, crops double their yield, and plant creatures are 60 percent more likely to be neutral or friendly instead of hostile.']}</description>
+    <sheet>
+      <description>Themes: Prosperity, luck, and risk
+Environments: At the end of rainbows, near fairy circles, near places where major breakthroughs, discoveries, or successes occurred
+Chaunic clover is a low-growing, sprawling plant with leaves growing in threes or fours on each stem. Its flowers are small and spiky and are typically white, purple, or yellow.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 265, 'entries': ['As an action, you can place a sprig of chaunic clover into a pouch of copper or silver pieces, totaling no more than 99 pieces, and roll a d100. If you roll a number higher than the amount of coins in the pouch, the number of coins doubles. If your roll is a 100, the number of coins doubles and each piece magically changes into gold. If your roll is a 1, all of the coins in the pouch are destroyed and a fey creature on the same plane as you learns of your failed attempt and takes an interest in you. Regardless of the outcome, the sprig of clover is destroyed after it is activated.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 265, 'entries': ['As an action, you can place a pot, kettle, or cup with a sprig of chaunic clover inside it under the shade of an old tree to summon a magic cauldron for 10 minutes. The first time you summon this cauldron, it is empty, and it becomes magically bound to you. Each time you use this wort thereafter, you summon the same cauldron. When not summoned by you, the cauldron exists on a tiny demiplane, and only a wish spell can access it. The cauldron can hold only coins, but it can hold any number of them. You can dismiss the cauldron early as an action. If you die, the cauldron is no longer magically bound to you, becomes nonmagical, and appears in the shade beneath one of the trees where you previously summoned it, holding whatever coins you stored in it. If you return to life and use this wort again, you become bound to a new empty cauldron. This wort requires 1 cutting of chaunic clover.']}
+{'type': 'entries', 'name':</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Emperor's Garlic" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Emperor_s_Garlic">
+    <description>Themes: Authority, immunity, and sight beyond sight
+Environments: Among wildflowers, near ancient trees, in ruins or lairs once inhabited by creatures of great wisdom
+Emperor's garlic is a flowering plant that grows in a tall stem from a bulb. Its leaves are flat and blade-like, and its flowers grow in a sphere at the top of the stem, typically in shades of pink and purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["You can eat a raw clove of emperor's garlic as an action and gain resistance to poison damage and have advantage on saving throws against being poisoned for 1 hour. However, you have disadvantage on all Charisma (Deception) and Charisma (Persuasion) checks for the duration. If you already have resistance to poison damage, you gain immunity to it instead."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 266, 'entries': ["Using a bulb of emperor's garlic as a spell focus, you and at least two other characters can perform an exorcism on a possessed target for 1 minute. Each character must maintain concentration while staying within 30 feet of the possessed target. The exorcism fails if no character is maintaining concentration  on the exorcism, or if all characters are more than 30 feet away from the target. If the exorcism fails, you can't attempt an exorcism again for at least 24 hours. At the end of the duration, if at least one character has maintained concentration, the target is no longer possessed as if it was the target of the break enchantment effect of the dispel evil and good spell. The emperor's garlic is consumed by the exorcism, regardless of success or failure. This wort requires 4 cuttings of emperor's garlic."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 266, 'entries': ["A garden of emperor's garlic that has been cultivated for at least 4 weeks protects the immediate area from undead. An undead creature that starts its turn inside of or within 100 feet of the garden must succeed on a Charisma saving throw or be turned."]}</description>
+    <sheet>
+      <description>Themes: Authority, immunity, and sight beyond sight
+Environments: Among wildflowers, near ancient trees, in ruins or lairs once inhabited by creatures of great wisdom
+Emperor's garlic is a flowering plant that grows in a tall stem from a bulb. Its leaves are flat and blade-like, and its flowers grow in a sphere at the top of the stem, typically in shades of pink and purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["You can eat a raw clove of emperor's garlic as an action and gain resistance to poison damage and have advantage on saving throws against being poisoned for 1 hour. However, you have disadvantage on all Charisma (Deception) and Charisma (Persuasion) checks for the duration. If you already have resistance to poison damage, you gain immunity to it instead."]}
+{'type': 'entries', 'name': 'Ceremony Wort (3rd Level)', 'page': 266, 'entries': ["Using a bulb of emperor's garlic as a spell focus, you and at least two other characters can perform an exorcism on a possessed target for 1 minute. Each character must maintain concentration while staying within 30 feet of the possessed target. The exorcism fails if no character is maintaining concentration  on the exorcism, or if all characters are more than 30 feet away from the target. If the exorcism fails, you can't attempt an exorcism again for at least 24 hours. At the end of the duration, if at least one character has maintained concentration, the target is no longer possessed as if it was the target of the break enchantment effect of the dispel evil and good spell. The emperor's garlic is consumed by the exorcism, regardless of success or failure. This wort requires 4 cuttings of emperor's garlic."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 266, 'entries': ["A garden of emperor's garlic that has been cultivated for at least 4 weeks protects the immediate area from undead. An undead creature that starts its turn inside of or within 100 feet of the garden must s</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Far Traveler's Freesia" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Far_Traveler_s_Freesia">
+    <description>Themes: Friendship, trust, purity, and innocence
+Environments: At shorelines, alongside crossroads, outside inns, taverns, and trading posts
+Far traveler's freesia is a flowering plant with long, narrow leaves and conical flowers in shades of white, red, and yellow.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["As an action, you can give a gift of far traveler's freesia to one creature to win it over. If the target is hostile toward you, it must succeed on a Wisdom saving throw or it becomes indifferent toward you. A beast with an Intelligence score of 3 or lower has disadvantage on this saving throw."]}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 266, 'entries': ["If you soak far traveler's freesia in a bowl of holy water, you can perform a ritual of protection on a number of creatures equal to 1 + your proficiency bonus. The ritual requires 10 minutes of soaking the freesia, then you must brush the water upon the brows of the targets. Each target has advantage on ability checks and saving throws against exhaustion and gains 1d6 temporary hit points for 8 hours. This wort requires 2 cuttings of far traveler's freesia."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 266, 'entries': ["A garden of far traveler's freesia that has been cultivated for at least 4 weeks attracts friendly moths and butterflies. A moth or butterfly that feeds on the freesia for at least 24 hours has an Intelligence score of 6 and can speak Common and one other language spoken by the cultivating gardener. The insects are always at least indifferent toward other creatures in the garden and are usually willing to help those who ask, provided the task is simple and doesn't take them out of the garden for more than 24 hours."]}</description>
+    <sheet>
+      <description>Themes: Friendship, trust, purity, and innocence
+Environments: At shorelines, alongside crossroads, outside inns, taverns, and trading posts
+Far traveler's freesia is a flowering plant with long, narrow leaves and conical flowers in shades of white, red, and yellow.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["As an action, you can give a gift of far traveler's freesia to one creature to win it over. If the target is hostile toward you, it must succeed on a Wisdom saving throw or it becomes indifferent toward you. A beast with an Intelligence score of 3 or lower has disadvantage on this saving throw."]}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 266, 'entries': ["If you soak far traveler's freesia in a bowl of holy water, you can perform a ritual of protection on a number of creatures equal to 1 + your proficiency bonus. The ritual requires 10 minutes of soaking the freesia, then you must brush the water upon the brows of the targets. Each target has advantage on ability checks and saving throws against exhaustion and gains 1d6 temporary hit points for 8 hours. This wort requires 2 cuttings of far traveler's freesia."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 266, 'entries': ["A garden of far traveler's freesia that has been cultivated for at least 4 weeks attracts friendly moths and butterflies. A moth or butterfly that feeds on the freesia for at least 24 hours has an Intelligence score of 6 and can speak Common and one other language spoken by the cultivating gardener. The insects are always at least indifferent toward other creatures in the garden and are usually willing to help those who ask, provided the task is simple and doesn't take them out of the garden for more than 24 hours."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Fiery Snapdragon" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Fiery_Snapdragon">
+    <description>Themes: Fire, strength, and presence
+Environments: Areas devastated by forest fires, alongside scorch marks made by fire magic, near temples dedicated to deities of the sun
+Fiery snapdragon is a flowering plant that grows in a series of tall, narrow stalks with leaves growing in a spiral around each stalk. Its flowers are shaped like a dragon's gaping maw and typically come in shades of yellow, pink, and red.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["As an action, you can place a sprig of fiery snapdragon in the flame of a lit torch to give any creature that carries it resistance to fire damage. The torch's remaining duration shortens to 10 minutes unless it was already less than 10 minutes. A creature carrying the torch can use a bonus action to extinguish the torch and gain immunity to fire damage until the start of its next turn. The torch then crumbles to dust and is destroyed."]}
+{'type': 'entries', 'name': 'Ceremony Wort (5th Level)', 'page': 267, 'entries': ["If you create a bonfire laden with fiery snapdragon, you can perform a ritual of strength on one creature within 10 feet of the bonfire. The ritual requires you and the target to remain in the bonfire's heat for 10 minutes. At the end of the ritual, the target's Strength score increases to 25 for 1 hour. This wort requires 4 cuttings of fiery snapdragon."]}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 267, 'entries': ['A garden of fiery snapdragon that has been cultivated for at least 4 weeks repels draconic invaders. A dragon that starts its turn inside of or within 150 feet of the garden must make a Wisdom saving throw or be turned as if it was the target of the Channel Divinity: Turn Undead feature of the cleric class. Draconic creatures, such as chimeras or kobolds, can be turned by the garden, but they have advantage on the saving throw.']}</description>
+    <sheet>
+      <description>Themes: Fire, strength, and presence
+Environments: Areas devastated by forest fires, alongside scorch marks made by fire magic, near temples dedicated to deities of the sun
+Fiery snapdragon is a flowering plant that grows in a series of tall, narrow stalks with leaves growing in a spiral around each stalk. Its flowers are shaped like a dragon's gaping maw and typically come in shades of yellow, pink, and red.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 266, 'entries': ["As an action, you can place a sprig of fiery snapdragon in the flame of a lit torch to give any creature that carries it resistance to fire damage. The torch's remaining duration shortens to 10 minutes unless it was already less than 10 minutes. A creature carrying the torch can use a bonus action to extinguish the torch and gain immunity to fire damage until the start of its next turn. The torch then crumbles to dust and is destroyed."]}
+{'type': 'entries', 'name': 'Ceremony Wort (5th Level)', 'page': 267, 'entries': ["If you create a bonfire laden with fiery snapdragon, you can perform a ritual of strength on one creature within 10 feet of the bonfire. The ritual requires you and the target to remain in the bonfire's heat for 10 minutes. At the end of the ritual, the target's Strength score increases to 25 for 1 hour. This wort requires 4 cuttings of fiery snapdragon."]}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 267, 'entries': ['A garden of fiery snapdragon that has been cultivated for at least 4 weeks repels draconic invaders. A dragon that starts its turn inside of or within 150 feet of the garden must make a Wisdom saving throw or be turned as if it was the target of the Channel Divinity: Turn Undead feature of the cleric class. Draconic creatures, such as chimeras or kobolds, can be turned by the garden, but they have advantage on the saving throw.']}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Gazing Hydrangea" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Gazing_Hydrangea">
+    <description>Themes: Unbinding, mental protection, and psychic strength
+Environments: In desert oases, near theaters and stages, outside windows that face mirrors
+Gazing hydrangea is a small shrub with short, broad leaves. Its flowers grow together in hemispherical bundles with tiny flowers in the center and larger, brightly colored flowers around the sides. The brightly colored flowers come in shades of pink, blue, and purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can crush and toss gazing hydrangea petals at one creature you can see up to 10 feet away from you. The target must succeed on a Charisma saving throw or lose attunement to one item it is carrying or wearing at random.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 267, 'entries': ['You can craft a flower crown from gazing hydrangea blooms and stems to protect your mind. Crafting the crown takes 1 hour. While wearing the crown, a creature has resistance to psychic damage and its thoughts are hidden, unable to be read by spells such as detect thoughts. Each crown requires 2 cuttings of gazing hydrangea and lasts for 8 hours.']}
+{'type': 'entries', 'name': 'Cultivated Wort (4th Level)', 'page': 267, 'entries': ['A garden of gazing hydrangea that has been cultivated for at least 4 weeks empowers fortune telling and foresight. A divination spell cast as a ritual within the garden requires no components, and its duration is doubled.']}</description>
+    <sheet>
+      <description>Themes: Unbinding, mental protection, and psychic strength
+Environments: In desert oases, near theaters and stages, outside windows that face mirrors
+Gazing hydrangea is a small shrub with short, broad leaves. Its flowers grow together in hemispherical bundles with tiny flowers in the center and larger, brightly colored flowers around the sides. The brightly colored flowers come in shades of pink, blue, and purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can crush and toss gazing hydrangea petals at one creature you can see up to 10 feet away from you. The target must succeed on a Charisma saving throw or lose attunement to one item it is carrying or wearing at random.']}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 267, 'entries': ['You can craft a flower crown from gazing hydrangea blooms and stems to protect your mind. Crafting the crown takes 1 hour. While wearing the crown, a creature has resistance to psychic damage and its thoughts are hidden, unable to be read by spells such as detect thoughts. Each crown requires 2 cuttings of gazing hydrangea and lasts for 8 hours.']}
+{'type': 'entries', 'name': 'Cultivated Wort (4th Level)', 'page': 267, 'entries': ['A garden of gazing hydrangea that has been cultivated for at least 4 weeks empowers fortune telling and foresight. A divination spell cast as a ritual within the garden requires no components, and its duration is doubled.']}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Hoary Valerian" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Hoary_Valerian">
+    <description>Themes: Dreams private and shared, relaxation, and sleep
+Environments: Campsites, near forest altars, where enchantments were cast
+Hoary valerian is a tall, flowering plant with narrow leaves growing in several close pairs along its frond-like leaf stalks. Its long, tall stems boast tiny flowers bunched together on the ends of smaller, off-shoot stems.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can crush the leaves of a sprig of hoary valerian and blow them at a creature you can see up to 10 feet away from you. The target must succeed on a Constitution saving throw or fall unconscious for 1d10 minutes. This effect ends for the creature if it takes damage or someone uses an action to wake it.']}
+{'type': 'entries', 'name': 'Ceremony Wort (9th Level)', 'page': 267, 'entries': ['If you steep hoary valerian roots in a pot of hot water for 1 minute, you can pour the liquid in a ring with a radius no larger than 20 feet. Small bushes of hoary valerian sprout and rapidly grow along the ring in 10 minutes. The plants last for 4 hours. A creature that takes a resting inside the ring finishes its long rest in 4 hours rather than 8 and regains twice as many Hit Dice at the end of the long rest. This wort requires 4 cuttings of hoary valerian.']}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 267, 'entries': ['A garden of hoary valerian that has been cultivated for 4 weeks causes humanoids that sleep within 1 mile of it to have shared, lucid dreams at least once each week. The dreams typically involve ordinary or peaceful daily life, but they sometimes contain minor prophetic elements.']}</description>
+    <sheet>
+      <description>Themes: Dreams private and shared, relaxation, and sleep
+Environments: Campsites, near forest altars, where enchantments were cast
+Hoary valerian is a tall, flowering plant with narrow leaves growing in several close pairs along its frond-like leaf stalks. Its long, tall stems boast tiny flowers bunched together on the ends of smaller, off-shoot stems.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can crush the leaves of a sprig of hoary valerian and blow them at a creature you can see up to 10 feet away from you. The target must succeed on a Constitution saving throw or fall unconscious for 1d10 minutes. This effect ends for the creature if it takes damage or someone uses an action to wake it.']}
+{'type': 'entries', 'name': 'Ceremony Wort (9th Level)', 'page': 267, 'entries': ['If you steep hoary valerian roots in a pot of hot water for 1 minute, you can pour the liquid in a ring with a radius no larger than 20 feet. Small bushes of hoary valerian sprout and rapidly grow along the ring in 10 minutes. The plants last for 4 hours. A creature that takes a resting inside the ring finishes its long rest in 4 hours rather than 8 and regains twice as many Hit Dice at the end of the long rest. This wort requires 4 cuttings of hoary valerian.']}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 267, 'entries': ['A garden of hoary valerian that has been cultivated for 4 weeks causes humanoids that sleep within 1 mile of it to have shared, lucid dreams at least once each week. The dreams typically involve ordinary or peaceful daily life, but they sometimes contain minor prophetic elements.']}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Merchant's Mint" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Merchant_s_Mint">
+    <description>Themes: Abundance, communication, and honorable deals
+Environments: In tracks left by caravans, near grain silos, where treaties were signed
+Merchant's mint is a low-growing, sprawling plant with square stems covered in pairs of leaves with serrated edges. Its flowers grow in clusters along narrow cones atop short stems and range in color from white to purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ["As an action, you can place a sprig of merchant's mint beneath your tongue and cast the comprehend languages spell on yourself. The sprig must remain in your mouth for the duration of the spell. The spell ends if you spit out the mint."]}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 268, 'entries': ["When you and another creature are at odds, write both of your names on a page, wrap it up with two sprigs of merchant's mint, and burn the bundle to summon a pseudodragon to operate as a draconic arbitrator of the dispute. Alternatively, you can summon a pact drake (see Creature Codex). The draconic arbitrator hears complaints from both sides to find an amicable solution and defends itself against hostile creatures, but it otherwise takes no actions. The draconic arbitrator can speak Common and Draconic and remains until the dispute is resolved, up to 1 hour. At the GM's discretion, the arbitrator can disappear early if it is summoned into a particularly dangerous location or if the disputing parties clearly don't seek resolution. This wort requires 2 cuttings of merchant's mint."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 268, 'entries': ["A garden of merchant's mint that has been cultivated for at least 12 weeks guards the nearby lands from disease and famine. Within 5 miles of the garden, fields and cropland never become barren, harvests are always abundant, and livestock never grows ill when grazing from pasture."]}</description>
+    <sheet>
+      <description>Themes: Abundance, communication, and honorable deals
+Environments: In tracks left by caravans, near grain silos, where treaties were signed
+Merchant's mint is a low-growing, sprawling plant with square stems covered in pairs of leaves with serrated edges. Its flowers grow in clusters along narrow cones atop short stems and range in color from white to purple.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ["As an action, you can place a sprig of merchant's mint beneath your tongue and cast the comprehend languages spell on yourself. The sprig must remain in your mouth for the duration of the spell. The spell ends if you spit out the mint."]}
+{'type': 'entries', 'name': 'Ceremony Wort', 'page': 268, 'entries': ["When you and another creature are at odds, write both of your names on a page, wrap it up with two sprigs of merchant's mint, and burn the bundle to summon a pseudodragon to operate as a draconic arbitrator of the dispute. Alternatively, you can summon a pact drake (see Creature Codex). The draconic arbitrator hears complaints from both sides to find an amicable solution and defends itself against hostile creatures, but it otherwise takes no actions. The draconic arbitrator can speak Common and Draconic and remains until the dispute is resolved, up to 1 hour. At the GM's discretion, the arbitrator can disappear early if it is summoned into a particularly dangerous location or if the disputing parties clearly don't seek resolution. This wort requires 2 cuttings of merchant's mint."]}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 268, 'entries': ["A garden of merchant's mint that has been cultivated for at least 12 weeks guards the nearby lands from disease and famine. Within 5 miles of the garden, fields and cropland never become barren, harvests are always abundant, and livestock never grows ill when grazing from pasture."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Mirthy Hops" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Mirthy_Hops">
+    <description>Themes: Joy, fellowship, and humor
+Environments: Near wheat fields, in campsites, outside drinking halls and taverns
+Mirthy hops is a tall, climbing vine plant with dark green, heart-shaped leaves and fragrant, pale green flower cones covered in overlapping petals.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can eat a bud of mirthy hops to triple your jump distance for 1 minute. For the duration, your jumping appears haphazard and unplanned, and a creature that sees you jumping must succeed on a Wisdom saving throw or burst into a fit of giggles until the start of your next turn. A giggling creature has disadvantage on its next attack roll or skill check. On a successful saving throw, the creature is immune to fits of giggles caused by mirthy hops for 24 hours.']}
+{'type': 'entries', 'name': 'Ceremony Wort (11th Level)', 'page': 268, 'entries': ['If you spend 1 minute singing a drinking song while holding a pitcher of ale with buds of mirthy hops floating in it, you can call on the assistance of the fey. At the end of the minute, you summon a fey creature as if you had cast the conjure fey spell. Unless you are in a situation where direct harm is about to befall you or the fey, the fey requires you to play a drinking game with it before it obeys any commands or agrees to any sort of service. The GM determines the nature and parameters of the drinking game, depending on the fey you summon. This wort requires 3 cuttings of mirthy hops.']}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 268, 'entries': ['A garden of mirthy hops that has been cultivated for at least 4 weeks defends the surrounding lands from overwhelming terror. Each creature within 1 mile of the garden has advantage on saving throws against being frightened, and it has disadvantage on Charisma (Intimidation) checks.']}</description>
+    <sheet>
+      <description>Themes: Joy, fellowship, and humor
+Environments: Near wheat fields, in campsites, outside drinking halls and taverns
+Mirthy hops is a tall, climbing vine plant with dark green, heart-shaped leaves and fragrant, pale green flower cones covered in overlapping petals.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can eat a bud of mirthy hops to triple your jump distance for 1 minute. For the duration, your jumping appears haphazard and unplanned, and a creature that sees you jumping must succeed on a Wisdom saving throw or burst into a fit of giggles until the start of your next turn. A giggling creature has disadvantage on its next attack roll or skill check. On a successful saving throw, the creature is immune to fits of giggles caused by mirthy hops for 24 hours.']}
+{'type': 'entries', 'name': 'Ceremony Wort (11th Level)', 'page': 268, 'entries': ['If you spend 1 minute singing a drinking song while holding a pitcher of ale with buds of mirthy hops floating in it, you can call on the assistance of the fey. At the end of the minute, you summon a fey creature as if you had cast the conjure fey spell. Unless you are in a situation where direct harm is about to befall you or the fey, the fey requires you to play a drinking game with it before it obeys any commands or agrees to any sort of service. The GM determines the nature and parameters of the drinking game, depending on the fey you summon. This wort requires 3 cuttings of mirthy hops.']}
+{'type': 'entries', 'name': 'Cultivated Wort', 'page': 268, 'entries': ['A garden of mirthy hops that has been cultivated for at least 4 weeks defends the surrounding lands from overwhelming terror. Each creature within 1 mile of the garden has advantage on saving throws against being frightened, and it has disadvantage on Charisma (Intimidation) checks.']}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Nimbus Daffodil" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Nimbus_Daffodil">
+    <description>Themes: Change, cycle of the seasons, and weather
+Environments: Bottoms of waterfalls, near recent rainfall puddles, alongside riverbanks
+Nimbus daffodil is a flowering plant with a central, branching stem that grows from a bulb. Long, narrow leaves grow close around this stem, and a two-layered, trumpet-shaped flower blooms from its top. These typically droop downwards and range in shades of yellow and white with the different layers having different colors.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can break a daffodil stem in two to create a 20-foot-radius sphere of fog centered on you. This effect otherwise works like the fog cloud spell.']}
+{'type': 'entries', 'name': 'Ceremony Wort (6th Level)', 'page': 268, 'entries': ["If you spend 10 minutes dancing outside while holding a wand made from bundled nimbus daffodils, you can summon rain. The rain cloud appears in the shape of a cylinder that is 10 feet tall with a 120-foot radius, centered on a point you can see 100 feet directly above you. For 1 minute, plants in the area are sufficiently watered, open containers in the area are filled with fresh water, and the range or duration (spellcaster's choice) of a spell cast in the area that creates or controls water, clouds, or weather is doubled. For a spell to benefit from this effect, the spellcaster must be in the rain's area, but the spell's effect doesn't need to be. If the spell requires concentration, the spellcaster must still maintain concentration, even if the duration is doubled. If you use your action to perform this dance and four other creatures, each 6th level or higher and equipped with a wand of nimbus daffodils, use a reaction to dance with you, the rain appears on initiative count 20 of the next round without requiring you to dance for the full 10 minutes. This wort requires 3 cuttings of nimbus daffodils."]}
+{'type': 'entries', 'name': 'Cultivated Wort (7th Level)', 'page': 268, 'entries': ['A garden of nimbus daffodil that has been cultivated for 5 weeks protects the surrounding area from inclement weather. Within 5 miles of the garden, the skies are rarely overcast, sunlight is gentle and warm, and light rain or snow falls every morning, when seasonally appropriate. Though this sunlight is gentle, it is no less dangerous to creatures harmed by sunlight, such as vampires.']}</description>
+    <sheet>
+      <description>Themes: Change, cycle of the seasons, and weather
+Environments: Bottoms of waterfalls, near recent rainfall puddles, alongside riverbanks
+Nimbus daffodil is a flowering plant with a central, branching stem that grows from a bulb. Long, narrow leaves grow close around this stem, and a two-layered, trumpet-shaped flower blooms from its top. These typically droop downwards and range in shades of yellow and white with the different layers having different colors.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 267, 'entries': ['As an action, you can break a daffodil stem in two to create a 20-foot-radius sphere of fog centered on you. This effect otherwise works like the fog cloud spell.']}
+{'type': 'entries', 'name': 'Ceremony Wort (6th Level)', 'page': 268, 'entries': ["If you spend 10 minutes dancing outside while holding a wand made from bundled nimbus daffodils, you can summon rain. The rain cloud appears in the shape of a cylinder that is 10 feet tall with a 120-foot radius, centered on a point you can see 100 feet directly above you. For 1 minute, plants in the area are sufficiently watered, open containers in the area are filled with fresh water, and the range or duration (spellcaster's choice) of a spell cast in the area that creates or controls water, clouds, or weather is doubled. For a spell to benefit from this effect, the spellcaster must be in the rain's area, but the spell's effect doesn't need to be. If the spell requires concentration, the spellcaster must still maintain concentration, even if the duration is doubled. If you use your action to perform this dance and four other creatures, each 6th level or higher and equipped with a wand of nimbus daffodils, use a reaction to dance with you, the rain appears on initiative count 20 of the next round without requiring you to dance for the full 10 minutes. This wort requires 3 cuttings of nimbus daffodils."]}
+{'type': 'entries', 'name': 'Cultivated Wort (7th Level)', 'page': 268, 'entries': ['A garden of</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Old Elvish Rose" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Old_Elvish_Rose">
+    <description>Themes: Contradictions, grace, and peaceful intentions
+Environments: Near the homes of fey, where proposals were made, around forgotten towers
+Old elvish rose is a flowering shrub with leaves growing alternately on stems covered in sickle-shaped thorns. Its broad flowers have a cup-like structure and typically come in shades of white, pink, yellow, and red.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 269, 'entries': ['As an action, you can cut an old elvish rose across the blade of a weapon that deals slashing damage to cause thorns to sprout from it for 1 minute. While covered in thorns, the weapon deals an extra 1d6 piercing damage to any target it hits.']}
+{'type': 'entries', 'name': 'Ceremony Wort (2nd Level)', 'page': 268, 'entries': ['If you spend 10 minutes drawing a bath of water infused with old elvish roses, a creature can soak in the water for 1 hour to ward away fears and unwanted advances. This soaking can be done during a resting. At the end of the hour, the creature has advantage on saving throws against being charmed and frightened until it finishes a resting. If the creature already has advantage against being charmed or frightened when it exits the bath, it has immunity to that condition instead. This wort requires 2 cuttings of old elvish rose.']}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 268, 'entries': ["A garden of old elvish roses that has been cultivated for at least 26 weeks quells strong emotions. A hostile humanoid or beast that enters or starts its turn inside of the garden or within 100 feet of it must succeed on a Charisma saving throw or become indifferent toward creatures it was previously hostile toward. This indifference ends if the creature is attacked or harmed or if it witnesses any of its allies being harmed. In addition, any effect that causes a humanoid or beast to be charmed or frightened is suppressed while the creature is inside the garden. When the creature leaves the garden, the effect resumes, provided that its duration hasn't expired in the meantime. This wort otherwise works like the calm emotions spell."]}</description>
+    <sheet>
+      <description>Themes: Contradictions, grace, and peaceful intentions
+Environments: Near the homes of fey, where proposals were made, around forgotten towers
+Old elvish rose is a flowering shrub with leaves growing alternately on stems covered in sickle-shaped thorns. Its broad flowers have a cup-like structure and typically come in shades of white, pink, yellow, and red.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 269, 'entries': ['As an action, you can cut an old elvish rose across the blade of a weapon that deals slashing damage to cause thorns to sprout from it for 1 minute. While covered in thorns, the weapon deals an extra 1d6 piercing damage to any target it hits.']}
+{'type': 'entries', 'name': 'Ceremony Wort (2nd Level)', 'page': 268, 'entries': ['If you spend 10 minutes drawing a bath of water infused with old elvish roses, a creature can soak in the water for 1 hour to ward away fears and unwanted advances. This soaking can be done during a resting. At the end of the hour, the creature has advantage on saving throws against being charmed and frightened until it finishes a resting. If the creature already has advantage against being charmed or frightened when it exits the bath, it has immunity to that condition instead. This wort requires 2 cuttings of old elvish rose.']}
+{'type': 'entries', 'name': 'Cultivated Wort (9th Level)', 'page': 268, 'entries': ["A garden of old elvish roses that has been cultivated for at least 26 weeks quells strong emotions. A hostile humanoid or beast that enters or starts its turn inside of the garden or within 100 feet of it must succeed on a Charisma saving throw or become indifferent toward creatures it was previously hostile toward. This indifference ends if the creature is attacked or harmed or if it witnesses any of its allies being harmed. In addition, any effect that causes a humanoid or beast to be charmed or frightened is suppressed while the creature is inside the garden. When the creature leaves the garden, the effect resum</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Wolfsbane" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Wolfsbane">
+    <description>Themes: Lycanthropy, transformation, and the moon
+Environments: Secluded groves, near the borders between the Material and Shadow Planes, where creatures or objects were forced to change their shapes
+Wolfsbane is a poisonous, flowering plant with dark green, palm-like leaves around tall stems. Each stem is crowned with a cluster of blue, purple, white, yellow, or pink hood-like flowers.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 269, 'entries': ['As an action, you can crush and sprinkle wolfsbane petals over a creature or object that has been turned to stone or forced to change its shape, such as through the polymorph spell. The creature immediately reverts to its original form. An unwilling creature can make a Charisma saving throw, and if it succeeds, it is unaffected by this use of wolfsbane.']}
+{'type': 'entries', 'name': 'Ceremony Wort (7th Level)', 'page': 268, 'entries': ["If you soak the petals of wolfsbane in a bowl of shallow water beneath the full moon for 10 minutes, you can imbue the petals with the moon's power. You and up to 5 other creatures can consume the petals to cast polymorph on yourselves, each of you transforming into a dire wolf. While a creature is in the form of the dire wolf, it retains its Intelligence, Wisdom, and Charisma scores. This transformation lasts until dawn's first light touches a transformed creature, the creature drops to 0 hit points or dies, or the creature is forced to revert to its original form by some other means. This wort requires 3 cuttings of wolfsbane."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 268, 'entries': ['A garden of wolfsbane that has been cultivated for at least 8 weeks cleanses lycanthropy within it. A creature afflicted with lycanthropy that takes a resting in the garden is cured of lycanthropy. During the resting, the lycanthrope must make death saving throws as the magic of the garden attacks the affliction. If the lycanthrope fails three death saving throws before succeeding on three death saving throws, it perishes, but the lycanthropy is removed in the process. If a creature afflicted with lycanthropy received the lycanthropy through heritage, such as a werewolf with a werewolf parent, the garden removes the lycanthropy only if the creature is willing and remains within the garden for 1 week. Such a creature must make the death saving throws on only the first resting in the garden.']}</description>
+    <sheet>
+      <description>Themes: Lycanthropy, transformation, and the moon
+Environments: Secluded groves, near the borders between the Material and Shadow Planes, where creatures or objects were forced to change their shapes
+Wolfsbane is a poisonous, flowering plant with dark green, palm-like leaves around tall stems. Each stem is crowned with a cluster of blue, purple, white, yellow, or pink hood-like flowers.
+{'type': 'entries', 'name': 'Minor Wort', 'page': 269, 'entries': ['As an action, you can crush and sprinkle wolfsbane petals over a creature or object that has been turned to stone or forced to change its shape, such as through the polymorph spell. The creature immediately reverts to its original form. An unwilling creature can make a Charisma saving throw, and if it succeeds, it is unaffected by this use of wolfsbane.']}
+{'type': 'entries', 'name': 'Ceremony Wort (7th Level)', 'page': 268, 'entries': ["If you soak the petals of wolfsbane in a bowl of shallow water beneath the full moon for 10 minutes, you can imbue the petals with the moon's power. You and up to 5 other creatures can consume the petals to cast polymorph on yourselves, each of you transforming into a dire wolf. While a creature is in the form of the dire wolf, it retains its Intelligence, Wisdom, and Charisma scores. This transformation lasts until dawn's first light touches a transformed creature, the creature drops to 0 hit points or dies, or the creature is forced to revert to its original form by some other means. This wort requires 3 cuttings of wolfsbane."]}
+{'type': 'entries', 'name': 'Cultivated Wort (5th Level)', 'page': 268, 'entries': ['A garden of wolfsbane that has been cultivated for at least 8 weeks cleanses lycanthropy within it. A creature afflicted with lycanthropy that takes a resting in the garden is cured of lycanthropy. During the resting, the lycanthrope must make death saving throws as the magic of the garden attacks the affliction. If the lycanthrope fails three death saving throws before su</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Argent Mantle" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Argent_Mantle">
+    <description>Often reserved for ranking knights of more dogmatic or monastic military orders, these finely made, hood-and-shoulder pieces endow the wearer with exceptional battlefield, statecraft, and leadership skills. You can use a bonus action to speak a command word, causing a nimbus of golden light to surround your head. This nimbus sheds Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. Friendly creatures in the bright light shed by this nimbus have advantage on initiative checks and can't be surprise except when incapacitated. The nimbus lasts until you use a bonus action to speak the command word again or you remove the mantle.
+{'type': 'entries', 'name': 'Endearing Leader', 'page': 309, 'entries': ["While wearing this mantle, you can use an action to increase your Charisma score to 20 for 10 minutes. This has no effect on you if your Charisma is already 20 or higher. This property of the mantle can't be used again until the next dawn."]}</description>
+    <sheet>
+      <description>Often reserved for ranking knights of more dogmatic or monastic military orders, these finely made, hood-and-shoulder pieces endow the wearer with exceptional battlefield, statecraft, and leadership skills. You can use a bonus action to speak a command word, causing a nimbus of golden light to surround your head. This nimbus sheds Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. Friendly creatures in the bright light shed by this nimbus have advantage on initiative checks and can't be surprise except when incapacitated. The nimbus lasts until you use a bonus action to speak the command word again or you remove the mantle.
+{'type': 'entries', 'name': 'Endearing Leader', 'page': 309, 'entries': ["While wearing this mantle, you can use an action to increase your Charisma score to 20 for 10 minutes. This has no effect on you if your Charisma is already 20 or higher. This property of the mantle can't be used again until the next dawn."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Beads of Contemplation" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Beads_of_Contemplation">
+    <description>This strand of eight wooden beads, each cleverly carved with geometric patterns, hangs from a stout length of cording. The beads store ki energy placed into them, holding the ki until you use it. The beads can store up to 8 ki points. At the end of a resting, you can place ki energy into the beads by touching them and expending a number of ki points equal to half your proficiency bonus.
+While wearing or carrying the beads, you can use a bonus action to remove any number of ki points from the beads, regaining that amount of ki points and freeing up space in the beads.</description>
+    <sheet>
+      <description>This strand of eight wooden beads, each cleverly carved with geometric patterns, hangs from a stout length of cording. The beads store ki energy placed into them, holding the ki until you use it. The beads can store up to 8 ki points. At the end of a resting, you can place ki energy into the beads by touching them and expending a number of ki points equal to half your proficiency bonus.
+While wearing or carrying the beads, you can use a bonus action to remove any number of ki points from the beads, regaining that amount of ki points and freeing up space in the beads.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Bloodspeed Elixir" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Bloodspeed_Elixir">
+    <description>When you drink this potion, your speed triples for 1 minute, but if you take the Dash action, you take 2d6 poison damage as your body is pushed beyond its normal limits. The murky, crimson liquid smells of ozone and has a thick, sludge-like consistency.</description>
+    <sheet>
+      <description>When you drink this potion, your speed triples for 1 minute, but if you take the Dash action, you take 2d6 poison damage as your body is pushed beyond its normal limits. The murky, crimson liquid smells of ozone and has a thick, sludge-like consistency.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Campaign Field Tent" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Campaign_Field_Tent">
+    <description>You can use an action to place this 1-inch cloth cube on the ground and speak its command word. The cube rapidly grows into a field tent with open or closed sides (your choice) that remains until you use an action to speak the command word that dismisses it, which works only if the tent is empty.
+The field tent is a canvas tent, 15 feet on a side and 10 feet high. It remains firmly fixed to the ground, even when standing on bare stone, a ship's deck, or loose sand, and its magic prevents it from being tipped over.
+Each creature in the area where the tent appears must make a DC 15 Dexterity saving throw, taking 5d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the tent. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.
+The tent has 50 hit points, immunity to nonmagical attacks, excluding siege weapons, and resistance to all other damage. The tent contains a small table with a chair and five simple beds made of cloth and foldable wooden frames.
+The field tent can hold up to six Medium or smaller creatures. When a creature finishes a resting in the tent, it regains double the hit points from any Hit Dice it spends. When a creature finishes a resting in the tent, it reduces its exhaustion level by 2 instead of 1. In addition, a creature has advantage on saving throws it makes against disease and poison while it rests in the tent.</description>
+    <sheet>
+      <description>You can use an action to place this 1-inch cloth cube on the ground and speak its command word. The cube rapidly grows into a field tent with open or closed sides (your choice) that remains until you use an action to speak the command word that dismisses it, which works only if the tent is empty.
+The field tent is a canvas tent, 15 feet on a side and 10 feet high. It remains firmly fixed to the ground, even when standing on bare stone, a ship's deck, or loose sand, and its magic prevents it from being tipped over.
+Each creature in the area where the tent appears must make a DC 15 Dexterity saving throw, taking 5d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the tent. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.
+The tent has 50 hit points, immunity to nonmagical attacks, excluding siege weapons, and resistance to all other damage. The tent contains a small table with a chair and five simple beds made of cloth and foldable wooden frames.
+The field tent can hold up to six Medium or smaller creatures. When a creature finishes a resting in the tent, it regains double the hit points from any Hit Dice it spends. When a creature finishes a resting in the tent, it reduces its exhaustion level by 2 instead of 1. In addition, a creature has advantage on saving throws it makes against disease and poison while it rests in the tent.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Cestus +1" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Cestus_1">
+    <description>These leather hand wraps are padded across the knuckles. You have a +1 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    <sheet>
+      <description>These leather hand wraps are padded across the knuckles. You have a +1 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Cestus +2" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Cestus_2">
+    <description>These leather hand wraps are padded across the knuckles. You have a +2 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    <sheet>
+      <description>These leather hand wraps are padded across the knuckles. You have a +2 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Cestus +3" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Cestus_3">
+    <description>These leather hand wraps are padded across the knuckles. You have a +3 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    <sheet>
+      <description>These leather hand wraps are padded across the knuckles. You have a +3 bonus to attack and damage rolls made with unarmed strikes while wearing these hand wraps. The bonus is determined by the item's rarity.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Chain Cilice" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Chain_Cilice">
+    <description>This bracelet made of spiked chain is designed to fit around the ankle, wrist, or thigh. While wearing the cilice, you can use an action to speak its command word, causing it to tighten on your skin and dealing 1d6 piercing damage to you at the start of each of your turns until you use a bonus action to end it. If you have the Ki class feature or ki points from another source, such as the Inner Resilience feat, you regain 1 ki point for every 5 damage caused by the cilice.
+If the cilice would reduce you to 0 hit points, it reduces you to 1 hit point instead and the effect ends. If the cilice's effect was ended in this way, it can't be used again until the next dawn.</description>
+    <sheet>
+      <description>This bracelet made of spiked chain is designed to fit around the ankle, wrist, or thigh. While wearing the cilice, you can use an action to speak its command word, causing it to tighten on your skin and dealing 1d6 piercing damage to you at the start of each of your turns until you use a bonus action to end it. If you have the Ki class feature or ki points from another source, such as the Inner Resilience feat, you regain 1 ki point for every 5 damage caused by the cilice.
+If the cilice would reduce you to 0 hit points, it reduces you to 1 hit point instead and the effect ends. If the cilice's effect was ended in this way, it can't be used again until the next dawn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Cloak of Tentacles" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Cloak_of_Tentacles">
+    <description>This cloak settles around your shoulders like a writhing creature, somehow simultaneously warm to the touch and icy cold against your skin.
+{'type': 'entries', 'name': 'Shimmering Skin', 'page': 311, 'entries': ["While wearing this cloak, you can use an action to expose its shimmering inner lining. Each creature within 10 feet of you and that can see you must make a DC 15 Wisdom saving throw. On a failed save, a creature is incapacitated until the end of its next turn. Once used, this property of the cloak can't be used again until the next dawn."]}
+{'type': 'entries', 'name': 'Writhing Tentacles', 'page': 311, 'entries': ["While wearing this cloak, you can use a bonus action to command the cloak to sprout four writhing tentacles for 1 minute. When a creature hits you with a melee attack while within 10 feet of you, one of the tentacles lashes out and makes an attack roll at your attacker with a +7 bonus. On a hit, the tentacle deals 2d10 bludgeoning damage then falls still, becoming inert. When the duration ends or once all four tentacles become inert, this property of the cloak can't be used again until the next dawn."]}</description>
+    <sheet>
+      <description>This cloak settles around your shoulders like a writhing creature, somehow simultaneously warm to the touch and icy cold against your skin.
+{'type': 'entries', 'name': 'Shimmering Skin', 'page': 311, 'entries': ["While wearing this cloak, you can use an action to expose its shimmering inner lining. Each creature within 10 feet of you and that can see you must make a DC 15 Wisdom saving throw. On a failed save, a creature is incapacitated until the end of its next turn. Once used, this property of the cloak can't be used again until the next dawn."]}
+{'type': 'entries', 'name': 'Writhing Tentacles', 'page': 311, 'entries': ["While wearing this cloak, you can use a bonus action to command the cloak to sprout four writhing tentacles for 1 minute. When a creature hits you with a melee attack while within 10 feet of you, one of the tentacles lashes out and makes an attack roll at your attacker with a +7 bonus. On a hit, the tentacle deals 2d10 bludgeoning damage then falls still, becoming inert. When the duration ends or once all four tentacles become inert, this property of the cloak can't be used again until the next dawn."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Deepstone Cestus" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Deepstone_Cestus">
+    <description>These leather hand wraps are fitted with round, flat stones engraved with runes. While wearing these wraps, your ki save DC increases by 2.</description>
+    <sheet>
+      <description>These leather hand wraps are fitted with round, flat stones engraved with runes. While wearing these wraps, your ki save DC increases by 2.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Esquire's Rowels" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Esquire_s_Rowels">
+    <description>While riding a mount and wearing these silver-chased spurs, you have a +1 bonus to initiative rolls, and your mount's Armor Class increases by 2. In addition, while riding a mount and wearing these spurs, you and your mount have advantage on Constitution saving throws against exhaustion caused by traveling more than 8 hours in a day.</description>
+    <sheet>
+      <description>While riding a mount and wearing these silver-chased spurs, you have a +1 bonus to initiative rolls, and your mount's Armor Class increases by 2. In addition, while riding a mount and wearing these spurs, you and your mount have advantage on Constitution saving throws against exhaustion caused by traveling more than 8 hours in a day.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Fletcher's Retort Gloves" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Fletcher_s_Retort_Gloves">
+    <description>When you use the Deflect Missiles reaction while wearing these gloves, you can spend 1 ki point to reduce the damage you take from the attack by 1d10 + your Dexterity modifier + twice your monk level instead. If you reduce the damage to 0 in this way and spend 1 ki point to throw the missile, the attack has a normal range of 30 feet and a long range of 120 feet.
+In addition, when a friendly creature within 5 feet of you is hit with a ranged weapon attack while you are wearing these gloves, you can use Deflect Missiles to deflect or catch the missile.</description>
+    <sheet>
+      <description>When you use the Deflect Missiles reaction while wearing these gloves, you can spend 1 ki point to reduce the damage you take from the attack by 1d10 + your Dexterity modifier + twice your monk level instead. If you reduce the damage to 0 in this way and spend 1 ki point to throw the missile, the attack has a normal range of 30 feet and a long range of 120 feet.
+In addition, when a friendly creature within 5 feet of you is hit with a ranged weapon attack while you are wearing these gloves, you can use Deflect Missiles to deflect or catch the missile.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Giantstrike Cestus" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Giantstrike_Cestus">
+    <description>These leather hand wraps are fitted with iron plates engraved with runes. When you make unarmed strikes while wearing these wraps, your Martial Arts die is one die higher.</description>
+    <sheet>
+      <description>These leather hand wraps are fitted with iron plates engraved with runes. When you make unarmed strikes while wearing these wraps, your Martial Arts die is one die higher.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Deadbane Heartglow Lantern" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Deadbane_Heartglow_Lantern">
+    <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Deadbane', 'page': 312, 'entries': ["While holding this lantern, you can use an action and expend 1 or more of its charges to cause the lantern to detect undead for 1 hour. When an undead is within 20 feet of the lantern, the light it sheds changes to blue, growing brighter the closer the undead is to the lantern. For each charge you spend beyond the first, the duration increases by 30 minutes, and the distance the lantern can detect undead increases by 5 feet. Increasing this distance doesn't increase the radius of the light shed by the lantern."]}</description>
+    <sheet>
+      <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Deadbane', 'page': 312, 'entries': ["While holding this lantern, you can use an action and expend 1 or more of its charges to cause the lantern to detect undead for 1 hour. When an undead is within 20 feet of the lantern, the light it sheds changes to blue, growing brighter the closer the undead is to the lantern. For each charge you spend beyond the first, the duration increases by 30 minutes, and the distance the lantern can detect undead increases by 5 feet. Increasing this distance doesn't increase the radius of the light shed by the lantern."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Floodmote Heartglow Lantern" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Floodmote_Heartglow_Lantern">
+    <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Floodmote', 'page': 312, 'entries': ["If you are submerged while holding or carrying this lantern, you can use a reaction and expend 1 or more of its charges to create a small bubble of air for yourself for 1 hour. For each charge you spend beyond the first, the duration increases by 1 hour, and you can choose one additional creature within 30 feet of you to also be protected with a bubble of air. The bubble of air surrounds only a creature's head or other air-breathing organ and provides breathable air to the creature for the duration."]}</description>
+    <sheet>
+      <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Floodmote', 'page': 312, 'entries': ["If you are submerged while holding or carrying this lantern, you can use a reaction and expend 1 or more of its charges to create a small bubble of air for yourself for 1 hour. For each charge you spend beyond the first, the duration increases by 1 hour, and you can choose one additional creature within 30 feet of you to also be protected with a bubble of air. The bubble of air surrounds only a creature's head or other air-breathing organ and provides breathable air to the creature for the duration."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Tumblesafe Heartglow Lantern" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Tumblesafe_Heartglow_Lantern">
+    <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Tumblesafe', 'page': 312, 'entries': ["If you or a friendly creature you can see within 40 feet of you falls while you are holding or carrying this lantern, you can use a reaction and expend 1 or more of its charges to slow the fall. For each charge you spend beyond the first, you can extend the light shed by the lantern by 5 feet. Each falling creature and object in the lantern's light descends at a rate of 60 feet per round and takes nodamage from falling. It continues to descend at thisrate until it lands, even if it exits the lantern's light before it lands."]}</description>
+    <sheet>
+      <description>Fashioned from a single piece of specially grown, hexagonal crystal fitted within a metal frame, a heartglow lantern doesn't use burning fuel or ignited material to generate light, making it ideal in caverns where air supplies can be precious. You can use an action while holding one of these lanterns to cause it to shed Vision and Light in a 20-foot radius and Vision and Light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word or until the lantern is no longer being held or carried by a living creature.
+Each lantern can create an additional effect when it is infused with vitality. Any creature touching a lantern can use an action to infuse it with some of the creature's vitality. The creature's hit-point maximum is reduced by an amount equal to the creature's proficiency bonus, and the lantern gains charges equal to that amount. This reduction lasts until the creature finishes a resting. Each lantern can hold any number of charges from any number of creatures, but each creature can infuse a lantern with vitality only once between long rests.
+{'type': 'entries', 'name': 'Tumblesafe', 'page': 312, 'entries': ["If you or a friendly creature you can see within 40 feet of you falls while you are holding or carrying this lantern, you can use a reaction and expend 1 or more of its charges to slow the fall. For each charge you spend beyond the first, you can extend the light shed by the lantern by 5 feet. Each falling creature and object in the lantern's light descends at a rate of 60 feet per round and takes nodamage from falling. It continues to descend at thisrate until it lands, even if it exits the lantern's light before it lands."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Javelin of Teleportation" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Javelin_of_Teleportation">
+    <description>This short-hafted javelin bears a long, metal head. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this weapon, you can speak its command word and force the target to make a DC 13 Wisdom saving throw. On a failed save, the target is teleported to an unoccupied space you can see within 60 feet of you. That space must be on the ground or on a floor.
+The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.</description>
+    <sheet>
+      <description>This short-hafted javelin bears a long, metal head. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this weapon, you can speak its command word and force the target to make a DC 13 Wisdom saving throw. On a failed save, the target is teleported to an unoccupied space you can see within 60 feet of you. That space must be on the ground or on a floor.
+The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Knight-Sergeant's Surcoat" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Knight_Sergeant_s_Surcoat">
+    <description>Fashioned from durable canvas and fine silk, this long, padded knight's tabard bears the colors and heraldry of a long-forgotten order of knights. While wearing this surcoat, you have advantage on Wisdom (Animal Handling) checks when interacting with horses, and you have advantage on Charisma (Persuasion) checks made to interact with humanoids of a higher social rank than you, such as an army's general or a region's monarch.
+{'type': 'entries', 'name': "Knight's Livery", 'page': 313, 'entries': ["While attuned to and wearing both the knight-sergeant's surcoat and the {@item argent mantle}, your Charisma score is 20. This has no effect on you if your Charisma is already 20 or higher."]}</description>
+    <sheet>
+      <description>Fashioned from durable canvas and fine silk, this long, padded knight's tabard bears the colors and heraldry of a long-forgotten order of knights. While wearing this surcoat, you have advantage on Wisdom (Animal Handling) checks when interacting with horses, and you have advantage on Charisma (Persuasion) checks made to interact with humanoids of a higher social rank than you, such as an army's general or a region's monarch.
+{'type': 'entries', 'name': "Knight's Livery", 'page': 313, 'entries': ["While attuned to and wearing both the knight-sergeant's surcoat and the {@item argent mantle}, your Charisma score is 20. This has no effect on you if your Charisma is already 20 or higher."]}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Medic's Sash" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Medic_s_Sash">
+    <description>While wearing this sash, your carrying capacity doubles. In addition, your movement doesn't provoke opportunity attack if you are carrying a friendly creature that has 0 hit points or is dying.
+{'type': 'entries', 'name': 'First Aid', 'page': 313, 'entries': ['The sash has 3 charges. While wearing the sash, you can expend 1 charge as an action to cast the spare the dying spell, and you can expend 2 charges as an action to cast the cure wounds spell, using your Charisma modifier as your spellcasting ability modifier (minimum of +1). The sash recovers all expended charges daily at dawn.']}</description>
+    <sheet>
+      <description>While wearing this sash, your carrying capacity doubles. In addition, your movement doesn't provoke opportunity attack if you are carrying a friendly creature that has 0 hit points or is dying.
+{'type': 'entries', 'name': 'First Aid', 'page': 313, 'entries': ['The sash has 3 charges. While wearing the sash, you can expend 1 charge as an action to cast the spare the dying spell, and you can expend 2 charges as an action to cast the cure wounds spell, using your Charisma modifier as your spellcasting ability modifier (minimum of +1). The sash recovers all expended charges daily at dawn.']}</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Ninefold Swarmdagger" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Ninefold_Swarmdagger">
+    <description>WhYou gain a +1 bonus to attack and damage rolls made with this magic weapon.
+When you hit a creature with this weapon, you can use a bonus action to launch ghostly duplicates of the dagger at nearby creatures. Ghostly duplicates of the dagger fly at up to three creatures you can see within 30 feet of the creature you hit. Make a ranged attack with this dagger at each target. On a hit, a target takes 1d4 force damage. Once you hit six creatures with these ghostly daggers, you can't launch ghostly daggers from this weapon again until the next dawn.</description>
+    <sheet>
+      <description>WhYou gain a +1 bonus to attack and damage rolls made with this magic weapon.
+When you hit a creature with this weapon, you can use a bonus action to launch ghostly duplicates of the dagger at nearby creatures. Ghostly duplicates of the dagger fly at up to three creatures you can see within 30 feet of the creature you hit. Make a ranged attack with this dagger at each target. On a hit, a target takes 1d4 force damage. Once you hit six creatures with these ghostly daggers, you can't launch ghostly daggers from this weapon again until the next dawn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Paired Gauntlets of Striking" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Paired_Gauntlets_of_Striking">
+    <description>These leather gloves are reinforced with steel plates and decorated with images of two humanoids fighting side-by-side. While you and another creature are each wearing one of the gauntlets and are each within 5 feet of the same creature, you both have advantage on the first attack roll you make against that creature on each of your turns.</description>
+    <sheet>
+      <description>These leather gloves are reinforced with steel plates and decorated with images of two humanoids fighting side-by-side. While you and another creature are each wearing one of the gauntlets and are each within 5 feet of the same creature, you both have advantage on the first attack roll you make against that creature on each of your turns.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Phase Arrow" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Phase_Arrow">
+    <description>When you make a ranged attack with this arrow, the attack ignores Cover as the arrow dips briefly into the Plane of Shadow on its way to the target. If the target has full cover and you are aware the target is in a particular space, you can fire this arrow at the target with disadvantage on the attack roll.</description>
+    <sheet>
+      <description>When you make a ranged attack with this arrow, the attack ignores Cover as the arrow dips briefly into the Plane of Shadow on its way to the target. If the target has full cover and you are aware the target is in a particular space, you can fire this arrow at the target with disadvantage on the attack roll.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Armor</set>
+    </setters>
+  </element>
+  <element name="Potion Belt" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Potion_Belt">
+    <description>One or more thin bands of flexible, pale blue crystal run along this plain, brown leather belt. As an action, you can pour a potion onto a band of crystal, which absorbs the potion and turns a deep blue. Each band of crystal can store only one potion at a time.
+This belt contains only one band of crystal. While wearing the belt, you can use an action to speak the belt's command word and gain the benefits of the potion as if you drank it.</description>
+    <sheet>
+      <description>One or more thin bands of flexible, pale blue crystal run along this plain, brown leather belt. As an action, you can pour a potion onto a band of crystal, which absorbs the potion and turns a deep blue. Each band of crystal can store only one potion at a time.
+This belt contains only one band of crystal. While wearing the belt, you can use an action to speak the belt's command word and gain the benefits of the potion as if you drank it.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Common</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Greater Potion Belt" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Greater_Potion_Belt">
+    <description>One or more thin bands of flexible, pale blue crystal run along this plain, brown leather belt. As an action, you can pour a potion onto a band of crystal, which absorbs the potion and turns a deep blue. Each band of crystal can store only one potion at a time.
+This belt contains three bands of crystal. While wearing the belt, you can use a bonus action to speak the belt's command word and the name of one of the potions and gain the benefits of the named potion as if you drank it.</description>
+    <sheet>
+      <description>One or more thin bands of flexible, pale blue crystal run along this plain, brown leather belt. As an action, you can pour a potion onto a band of crystal, which absorbs the potion and turns a deep blue. Each band of crystal can store only one potion at a time.
+This belt contains three bands of crystal. While wearing the belt, you can use a bonus action to speak the belt's command word and the name of one of the potions and gain the benefits of the named potion as if you drank it.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Potion of Infinite Possibilities" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Potion_of_Infinite_Possibilities">
+    <description>This deep purple potion swirls with glittering flashes of red, green, and blue and smells faintly of ozone. For 1 hour after drinking this potion, you gain the following benefits:
+{'type': 'list', 'items': ['You have blindsight out to a range of 60 feet.', 'When you roll a 1 on an ability check, saving throw, or attack roll, you can reroll the die and must use the new roll.', 'You can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.']}
+When the duration ends, you are stunned until the end of your next turn as your mind reels from the loss of the mind-altering effects.</description>
+    <sheet>
+      <description>This deep purple potion swirls with glittering flashes of red, green, and blue and smells faintly of ozone. For 1 hour after drinking this potion, you gain the following benefits:
+{'type': 'list', 'items': ['You have blindsight out to a range of 60 feet.', 'When you roll a 1 on an ability check, saving throw, or attack roll, you can reroll the die and must use the new roll.', 'You can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.']}
+When the duration ends, you are stunned until the end of your next turn as your mind reels from the loss of the mind-altering effects.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Pouch of Runestones" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Pouch_of_Runestones">
+    <description>This ordinary bag, made from cured animal hide, appears empty. Reaching inside the bag, however, reveals the presence of a number of flat, bone tiles. The bag weighs 1/2 pound.
+You can use an action to pull one of the tiles from the bag and throw it into the air in front of you. The tile floats 5 feet off the ground and displays a runic symbol. Make a DC 12 Wisdom check. The symbol on the tile is upright on a successful save, and it is reversed on a failed save. Roll a d12 and consult the appropriate table to determine the rune's effect. If a result requires a saving throw, the DC is 15. The tile vanishes after it displays a rune, but the bag never runs out of tiles.
+Once used, the bag shouldn't be used again until the next dawn. Each time it is used again before then, the DC of the Wisdom check increases by 5 for each tile drawn after the first. You can be affected by more than one rune's effect at a time.
+Unless otherwise noted, each rune's effect lasts until you finish a resting.
+{'type': 'table', 'caption': 'Upright Runestone', 'colLabels': ['d12', 'Rune', 'Meaning', 'Effect'], 'colStyles': ['col-1 text-center', 'col-2 text-center', 'col-2 text-center', 'col-11'], 'rows': [['1', 'Ansuz', 'Truth', 'When this rune appears, a zone of truth spell is triggered, centered on you, and it moves with you for 1 hour.'], ['2', 'Naudiz', 'Necessity', 'You have advantage on the next saving throw you make before this effect ends.'], ['3', 'Hagalaz', 'Winter', 'You can cast the ice storm spell once before this effect ends.'], ['4', 'Laukaz', 'Sea', 'You can breathe air and water for 5 hours.'], ['5', 'Algiz', 'Protection', 'You gain a +2 bonus to AC.'], ['6', 'Mannaz', 'Teamwork', 'You and up to five creatures of your choice that you can see gain 10 temporary hit points.'], ['7', 'Isaz', 'Ice', 'When you hit with an attack, the attack deals an extra 1d6 cold damage.'], ['8', 'Berkanan', 'Bear Maiden', 'You can use an action to cast polymorph on yourself, transforming into a brown bear. While you are in the form of the brown bear, you retain your Intelligence, Wisdom, and Charisma scores. You can end this effect early as a bonus action.'], ['9', 'Perto', 'Mystery', 'You can cast disguise self at will.'], ['10', 'Ehwaz', 'Freedom', 'Until this effect ends, you can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has you grappled.'], ['11', 'Raido', 'Easy Travel', 'Your walking speed increases by 10 feet.'], ['12', 'Kaunen', 'Enlightenment', 'You can cast the lesser restoration spell as a bonus action once before this effect ends.']]}
+{'type': 'table', 'caption': 'Reversed Runestone', 'colLabels': ['d12', 'Rune', 'Meaning', 'Effect'], 'colStyles': ['col-1 text-center', 'col-2 text-center', 'col-2 text-center', 'col-11'], 'rows': [['1', 'Ansuz', 'Falsehood', 'You believe everything you hear to be a lie.'], ['2', 'Naudiz', 'Consequence', 'You have disadvantage on the next saving throw you make before this effect ends.'], ['3', 'Hagalaz', 'Blizzard', "When this rune appears, a otiluke's freezing sphere spell is triggered, centered on you."], ['4', 'Laukaz', 'Sky', 'When this rune appears, a reverse gravity spell is triggered, centered on you. The effect ends at the start of your next turn.'], ['5', 'Algiz', 'Vulnerability', 'Your Armor Class is reduced by 2.'], ['6', 'Mannaz', 'Dissension', 'You and friendly creatures within 30 feet of you have disadvantage on attack rolls while within 10 feet of each other.'], ['7', 'Isaz', 'Ice', 'You have vulnerability to cold damage.'], ['8', 'Berkanan', 'Bear Matron', 'When this rune appears, a brown bear also appears an unoccupied space nearest to you, and it attacks you.'], ['9', 'Perto', 'Unwanted Revelation', 'You have disadvantage on Charisma checks.'], ['10', 'Ehwaz', 'Shackles', 'When this rune appears, a maze spell is triggered, targeting you. The effect lasts for 10 minutes or until you escape the maze.'], ['11', 'Raido', 'Hard Travel', 'Your walking speed is reduced by 10 feet.'], ['12', 'Kaunen', 'Insanity', 'You suffer a long-term madness.']]}</description>
+    <sheet>
+      <description>This ordinary bag, made from cured animal hide, appears empty. Reaching inside the bag, however, reveals the presence of a number of flat, bone tiles. The bag weighs 1/2 pound.
+You can use an action to pull one of the tiles from the bag and throw it into the air in front of you. The tile floats 5 feet off the ground and displays a runic symbol. Make a DC 12 Wisdom check. The symbol on the tile is upright on a successful save, and it is reversed on a failed save. Roll a d12 and consult the appropriate table to determine the rune's effect. If a result requires a saving throw, the DC is 15. The tile vanishes after it displays a rune, but the bag never runs out of tiles.
+Once used, the bag shouldn't be used again until the next dawn. Each time it is used again before then, the DC of the Wisdom check increases by 5 for each tile drawn after the first. You can be affected by more than one rune's effect at a time.
+Unless otherwise noted, each rune's effect lasts until you finish a resting.
+{'type': 'table', 'caption': 'Upright Runestone', 'colLabels': ['d12', 'Rune', 'Meaning', 'Effect'], 'colStyles': ['col-1 text-center', 'col-2 text-center', 'col-2 text-center', 'col-11'], 'rows': [['1', 'Ansuz', 'Truth', 'When this rune appears, a zone of truth spell is triggered, centered on you, and it moves with you for 1 hour.'], ['2', 'Naudiz', 'Necessity', 'You have advantage on the next saving throw you make before this effect ends.'], ['3', 'Hagalaz', 'Winter', 'You can cast the ice storm spell once before this effect ends.'], ['4', 'Laukaz', 'Sea', 'You can breathe air and water for 5 hours.'], ['5', 'Algiz', 'Protection', 'You gain a +2 bonus to AC.'], ['6', 'Mannaz', 'Teamwork', 'You and up to five creatures of your choice that you can see gain 10 temporary hit points.'], ['7', 'Isaz', 'Ice', 'When you hit with an attack, the attack deals an extra 1d6 cold damage.'], ['8', 'Berkanan', 'Bear Maiden', 'You can use an action to cast polymorph on yourself, transforming into a bro</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Serpentine Sandals" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Serpentine_Sandals">
+    <description>While wearing these glistening, snake-skin sandals, you ignore difficult terrain created by marsh, swamps, or other shallow water, such as a rain-soaked rooftop. In addition, you have advantage on ability checks and saving throws made to escape a grapple or the restrained condition while wearing these sandals.</description>
+    <sheet>
+      <description>While wearing these glistening, snake-skin sandals, you ignore difficult terrain created by marsh, swamps, or other shallow water, such as a rain-soaked rooftop. In addition, you have advantage on ability checks and saving throws made to escape a grapple or the restrained condition while wearing these sandals.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Shattershot Arrow" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Shattershot_Arrow">
+    <description>When you hit a creature with this weapon, the target takes an extra 3d6 thunder damage as the arrow releases a sudden, loud ringing. Each creature made of inorganic material such as stone, crystal, or metal that is within 10 feet of the target must make a DC 13 Constitution saving throw, taking 3d6 thunder damage on a failed save, or half as much damage on a successful one. A nonmagical object that isn't being worn or carried also takes the damage if it's within 10 feet of the target.</description>
+    <sheet>
+      <description>When you hit a creature with this weapon, the target takes an extra 3d6 thunder damage as the arrow releases a sudden, loud ringing. Each creature made of inorganic material such as stone, crystal, or metal that is within 10 feet of the target must make a DC 13 Constitution saving throw, taking 3d6 thunder damage on a failed save, or half as much damage on a successful one. A nonmagical object that isn't being worn or carried also takes the damage if it's within 10 feet of the target.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Armor</set>
+    </setters>
+  </element>
+  <element name="Soulbound Wraps" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Soulbound_Wraps">
+    <description>These cloth hand wraps are embroidered with symbols of balance and meditation. When you hit a creature with an unarmed strike while wearing these wraps, you can choose to reduce the damage you deal by up to 10, pulling some of the energy of the hit back into you through the wraps. You regain 1 ki point for every 10 damage you choose not to deal to a creature you hit. Once you regain a number of ki points equal to half your proficiency bonus, the wraps unravel and can't be worn again until the next dawn.</description>
+    <sheet>
+      <description>These cloth hand wraps are embroidered with symbols of balance and meditation. When you hit a creature with an unarmed strike while wearing these wraps, you can choose to reduce the damage you deal by up to 10, pulling some of the energy of the hit back into you through the wraps. You regain 1 ki point for every 10 damage you choose not to deal to a creature you hit. Once you regain a number of ki points equal to half your proficiency bonus, the wraps unravel and can't be worn again until the next dawn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Stasis Stone" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Stasis_Stone">
+    <description>This small, crystalline, purple stone measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 2 stasis stones can be found together.
+You can use an action to throw the stone up to 30 feet. The stone explodes on impact and is destroyed. Each creature within a 10-foot radius of where the stone landed must succeed on a DC 15 Constitution saving throw or be petrified until the end of its next turn as the stone releases temporal magic and freezes it in time.</description>
+    <sheet>
+      <description>This small, crystalline, purple stone measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 2 stasis stones can be found together.
+You can use an action to throw the stone up to 30 feet. The stone explodes on impact and is destroyed. Each creature within a 10-foot radius of where the stone landed must succeed on a DC 15 Constitution saving throw or be petrified until the end of its next turn as the stone releases temporal magic and freezes it in time.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Victory Banner" type="Magic Item" source="ToH" id="ID_ToH_ITEM_Victory_Banner">
+    <description>This small banner is mounted on a short haft and can be attached to a backpack, saddle, or similar equipment. The banner has 3 charges. It regains all expended charges daily at dawn. You can expend 1 of its charges to give yourself advantage on weapon attacks for 1 minute. When you roll a 20 on an attack roll made with a weapon, you can expend 1 charge to move up to your speed without provoking opportunity attack.
+You must be within 5 feet of the banner to expend any of its charges.</description>
+    <sheet>
+      <description>This small banner is mounted on a short haft and can be attached to a backpack, saddle, or similar equipment. The banner has 3 charges. It regains all expended charges daily at dawn. You can expend 1 of its charges to give yourself advantage on weapon attacks for 1 minute. When you roll a 20 on an attack roll made with a weapon, you can expend 1 charge to move up to your speed without provoking opportunity attack.
+You must be within 5 feet of the banner to expend any of its charges.</description>
+    </sheet>
+    <setters>
+      <set name="category">Magic Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+</elements>

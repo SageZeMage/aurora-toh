@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Tome of Heroes — Source</name>
+    <description>Source definition for Tome of Heroes (ToH) content.</description>
+    <update version="1.0.0">
+      <file name="toh-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-source.xml" />
+    </update>
+  </info>
+  <element name="Tome of Heroes" type="Source" source="ToH" id="ID_ToH_SOURCE">
+    <description>Tome of Heroes (ToH)
+Authors: Kobold Press
+Version: 1.0
+Link: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</description>
+    <setters>
+      <set name="url">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
+    </setters>
+  </element>
+</elements>

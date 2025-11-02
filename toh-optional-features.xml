@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Tome of Heroes — Optional Features</name>
+    <description>Draconic Runes and other optional features from Tome of Heroes.</description>
+    <update version="1.0.0">
+      <file name="toh-optional-features.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-optional-features.xml" />
+    </update>
+  </info>
+  <element name="Gunfighting" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Gunfighting">
+    <supports>FS:F, FS:P, FS:R</supports>
+    <description>When you roll a 1 on a damage die for an attack you make with a weapon with the gunpowder property, you can reroll the die and must use the new roll, even if the new roll is a 1. The weapon must have the gunpowder property for you to gain this benefit.</description>
+    <sheet>
+      <description>When you roll a 1 on a damage die for an attack you make with a weapon with the gunpowder property, you can reroll the die and must use the new roll, even if the new roll is a 1. The weapon must have the gunpowder property for you to gain this benefit.</description>
+    </sheet>
+  </element>
+  <element name="Autonomous Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Autonomous_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that has a duration of concentration, you can spend 3 sorcery points to cast it without requiring concentration. For example, using autonomous spell on detect magic changes its duration to 10 minutes. You can have only one autonomous spell in effect at a time. If you use this metamagic to modify a second spell, the first autonomous spell ends.</description>
+    <sheet>
+      <description>When you cast a spell that has a duration of concentration, you can spend 3 sorcery points to cast it without requiring concentration. For example, using autonomous spell on detect magic changes its duration to 10 minutes. You can have only one autonomous spell in effect at a time. If you use this metamagic to modify a second spell, the first autonomous spell ends.</description>
+    </sheet>
+  </element>
+  <element name="Bewildering Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Bewildering_Spell">
+    <supports>MM</supports>
+    <description>You can cast a spell that overwhelms the senses of its target. When you cast a spell that deals damage to one creature, you can spend 2 sorcery points to increase the intensity of the spell's visual effect. The target of your spell has disadvantage on the next Intelligence, Wisdom, or Charisma saving throw it makes within the next minute.</description>
+    <sheet>
+      <description>You can cast a spell that overwhelms the senses of its target. When you cast a spell that deals damage to one creature, you can spend 2 sorcery points to increase the intensity of the spell's visual effect. The target of your spell has disadvantage on the next Intelligence, Wisdom, or Charisma saving throw it makes within the next minute.</description>
+    </sheet>
+  </element>
+  <element name="Concussive Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Concussive_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that deals damage to a creature, you can spend 1 sorcery point to push the target of your spell 10 feet away from you. If the spell affects multiple targets, you can choose only one of the targets to be pushed away from you.</description>
+    <sheet>
+      <description>When you cast a spell that deals damage to a creature, you can spend 1 sorcery point to push the target of your spell 10 feet away from you. If the spell affects multiple targets, you can choose only one of the targets to be pushed away from you.</description>
+    </sheet>
+  </element>
+  <element name="Contingent Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Contingent_Spell">
+    <supports>MM</supports>
+    <description>You can cast a spell to be triggered at a later time. To do so, you must spend a number of sorcery points equal to the level of the spell slot used to cast the spell. You then use your reaction to trigger the spell when the event you stipulated when you cast the spell occurs.
+For example, you use your action, expend a 4th-level spell slot, and spend 4 sorcery points to cast dimension door as a contingent spell that will take effect when a creature moves within 5 feet of you. When a creature moves within 5 feet of you a moment later, you use your reaction to trigger the dimension door and teleport to a space 200 feet away.</description>
+    <sheet>
+      <description>You can cast a spell to be triggered at a later time. To do so, you must spend a number of sorcery points equal to the level of the spell slot used to cast the spell. You then use your reaction to trigger the spell when the event you stipulated when you cast the spell occurs.
+For example, you use your action, expend a 4th-level spell slot, and spend 4 sorcery points to cast dimension door as a contingent spell that will take effect when a creature moves within 5 feet of you. When a creature moves within 5 feet of you a moment later, you use your reaction to trigger the dimension door and teleport to a space 200 feet away.</description>
+    </sheet>
+  </element>
+  <element name="Emotional Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Emotional_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that allows its target to make a Wisdom saving throw, you can spend 3 sorcery points to change the type of saving throw required to a Charisma saving throw instead.</description>
+    <sheet>
+      <description>When you cast a spell that allows its target to make a Wisdom saving throw, you can spend 3 sorcery points to change the type of saving throw required to a Charisma saving throw instead.</description>
+    </sheet>
+  </element>
+  <element name="Enlightening Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Enlightening_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that targets a creature, you can spend 1 sorcery point to learn one of your target's resistances or immunities. Each time you use this metamagic option on the same creature, it reveals a new resistance or immunity.</description>
+    <sheet>
+      <description>When you cast a spell that targets a creature, you can spend 1 sorcery point to learn one of your target's resistances or immunities. Each time you use this metamagic option on the same creature, it reveals a new resistance or immunity.</description>
+    </sheet>
+  </element>
+  <element name="Fearful Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Fearful_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that deals damage to a creature, you can spend 3 sorcery points to make the target of your spell frightened of you until the end of your next turn. If your spell affects multiple targets, you can choose only one of the targets to be frightened.</description>
+    <sheet>
+      <description>When you cast a spell that deals damage to a creature, you can spend 3 sorcery points to make the target of your spell frightened of you until the end of your next turn. If your spell affects multiple targets, you can choose only one of the targets to be frightened.</description>
+    </sheet>
+  </element>
+  <element name="Hidden Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Hidden_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell with a duration longer than instantaneous, you can spend 2 sorcery points to mask its magical aura. For the duration of your spell, it can't be detected or discerned with spells or effects, such as the detect magic spell or a chuul's Sense Magic trait.</description>
+    <sheet>
+      <description>When you cast a spell with a duration longer than instantaneous, you can spend 2 sorcery points to mask its magical aura. For the duration of your spell, it can't be detected or discerned with spells or effects, such as the detect magic spell or a chuul's Sense Magic trait.</description>
+    </sheet>
+  </element>
+  <element name="Homing Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Homing_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that deals damage to one creature, you can spend 2 sorcery points to target a creature that has Cover or is Vision and Light, provided you are aware of the target's presence. This metamagic option allows you to target the creature, but it doesn't cause the spell to automatically affect the target. As normal, the target must still make a saving throw or be hit by your spell attack to be affected by the spell.</description>
+    <sheet>
+      <description>When you cast a spell that deals damage to one creature, you can spend 2 sorcery points to target a creature that has Cover or is Vision and Light, provided you are aware of the target's presence. This metamagic option allows you to target the creature, but it doesn't cause the spell to automatically affect the target. As normal, the target must still make a saving throw or be hit by your spell attack to be affected by the spell.</description>
+    </sheet>
+  </element>
+  <element name="Hungry Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Hungry_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that deals damage to a single target, you can spend 1 sorcery point to add your Charisma modifier to the damage roll of the spell. If you reduce a creature to 0 hit points with a hungry spell, you regain hit points equal to your Charisma modifier (minimum of 1).</description>
+    <sheet>
+      <description>When you cast a spell that deals damage to a single target, you can spend 1 sorcery point to add your Charisma modifier to the damage roll of the spell. If you reduce a creature to 0 hit points with a hungry spell, you regain hit points equal to your Charisma modifier (minimum of 1).</description>
+    </sheet>
+  </element>
+  <element name="Immaterial Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Immaterial_Spell">
+    <supports>MM</supports>
+    <description>You can cast a spell without providing costly material components. You must spend 1 sorcery point for every 100 gp in the cost of the material component required.</description>
+    <sheet>
+      <description>You can cast a spell without providing costly material components. You must spend 1 sorcery point for every 100 gp in the cost of the material component required.</description>
+    </sheet>
+  </element>
+  <element name="Insatiable Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Insatiable_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell on a creature that is immune to the damage or effects of the spell, you can spend 5 sorcery points to bypass the creature's immunity for this casting of the spell. The creature is affected by the spell as if it didn't have immunity to the spell's damage or effects and must make any saving throws allowed by the spell as normal.</description>
+    <sheet>
+      <description>When you cast a spell on a creature that is immune to the damage or effects of the spell, you can spend 5 sorcery points to bypass the creature's immunity for this casting of the spell. The creature is affected by the spell as if it didn't have immunity to the spell's damage or effects and must make any saving throws allowed by the spell as normal.</description>
+    </sheet>
+  </element>
+  <element name="Lingering Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Lingering_Spell">
+    <supports>MM</supports>
+    <description>When you cast a damaging spell with an instantaneous duration that requires a saving throw, you can spend a number of sorcery points equal to the spell's level to prolong the spell's damage. A creature that failed its saving throw against your original casting of this spell must succeed on the same saving throw at the start of your next turn or take half of the spell's damage.</description>
+    <sheet>
+      <description>When you cast a damaging spell with an instantaneous duration that requires a saving throw, you can spend a number of sorcery points equal to the spell's level to prolong the spell's damage. A creature that failed its saving throw against your original casting of this spell must succeed on the same saving throw at the start of your next turn or take half of the spell's damage.</description>
+    </sheet>
+  </element>
+  <element name="Logical Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Logical_Spell">
+    <supports>MM</supports>
+    <description>When you cast a spell that allows its target to make a Wisdom saving throw, you can spend 3 sorcery points to change the type of saving throw required to an Intelligence saving throw instead.</description>
+    <sheet>
+      <description>When you cast a spell that allows its target to make a Wisdom saving throw, you can spend 3 sorcery points to change the type of saving throw required to an Intelligence saving throw instead.</description>
+    </sheet>
+  </element>
+  <element name="Robust Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Robust_Spell">
+    <supports>MM</supports>
+    <description>You can make a spell difficult for other spellcasters to counter or dispel by spending 2 sorcery points. A creature that must make an ability check to counter or dispel your spell has disadvantage on the check.</description>
+    <sheet>
+      <description>You can make a spell difficult for other spellcasters to counter or dispel by spending 2 sorcery points. A creature that must make an ability check to counter or dispel your spell has disadvantage on the check.</description>
+    </sheet>
+  </element>
+  <element name="Sapping Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Sapping_Spell">
+    <supports>MM</supports>
+    <description>You can increase the damage you deal with a spell by expending 2 sorcery points and up to half your remaining Hit Dice. Roll the Hit Dice and add the total result to the damage dealt by the spell. You then take damage equal to half the amount of damage your Hit Dice added to the spell's damage.</description>
+    <sheet>
+      <description>You can increase the damage you deal with a spell by expending 2 sorcery points and up to half your remaining Hit Dice. Roll the Hit Dice and add the total result to the damage dealt by the spell. You then take damage equal to half the amount of damage your Hit Dice added to the spell's damage.</description>
+    </sheet>
+  </element>
+  <element name="Shared Hunger Spell" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Shared_Hunger_Spell">
+    <supports>MM</supports>
+    <description>When you cast a beneficial spell on a friendly creature, you can spend 3 sorcery points to empower the creature's weapons. The creature's next weapon attack roll has advantage and, if the creature hits, you and the creature regain hit points equal to your Charisma modifier (minimum of 1).</description>
+    <sheet>
+      <description>When you cast a beneficial spell on a friendly creature, you can spend 3 sorcery points to empower the creature's weapons. The creature's next weapon attack roll has advantage and, if the creature hits, you and the creature regain hit points equal to your Charisma modifier (minimum of 1).</description>
+    </sheet>
+  </element>
+  <element name="Chaotic Aegis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Chaotic_Aegis">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 5+
+
+The pact with your patron offers protection from the powers of entropy. When you or a creature targeting you with an effect must roll a die or dice and consult a table to determine the outcome of the effect, such as with the confusion spell, you can use your reaction to force a reroll of the die or dice. You must use the new result. You must finish a resting before you can use this invocation again.</description>
+    <sheet>
+      <description>Prerequisite: Level 5+
+
+The pact with your patron offers protection from the powers of entropy. When you or a creature targeting you with an effect must roll a die or dice and consult a table to determine the outcome of the effect, such as with the confusion spell, you can use your reaction to force a reroll of the die or dice. You must use the new result. You must finish a resting before you can use this invocation again.</description>
+    </sheet>
+  </element>
+  <element name="Chaotic Luck" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Chaotic_Luck">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 3+
+
+The tumbling dice of fate sometimes fall in your favor. When you are hit by an attack, you can use your reaction to force the attacker to reroll the damage dice. You must accept the new damage roll. You must finish a resting before you can use this invocation again.</description>
+    <sheet>
+      <description>Prerequisite: Level 3+
+
+The tumbling dice of fate sometimes fall in your favor. When you are hit by an attack, you can use your reaction to force the attacker to reroll the damage dice. You must accept the new damage roll. You must finish a resting before you can use this invocation again.</description>
+    </sheet>
+  </element>
+  <element name="Convulsions of the World" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Convulsions_of_the_World">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 3+
+
+Your mind reaches deep into the ground and an elder voice answers. You can use an action to cause a localized tremor to shake the ground around you. Each creature other than yourself within 20 feet of you must succeed on a Dexterity saving throw or be knocked prone. You can choose a number of creatures equal to half your proficiency bonus to automatically succeed on this saving throw. You must finish a resting before you can use this invocation again.</description>
+    <sheet>
+      <description>Prerequisite: Level 3+
+
+Your mind reaches deep into the ground and an elder voice answers. You can use an action to cause a localized tremor to shake the ground around you. Each creature other than yourself within 20 feet of you must succeed on a Dexterity saving throw or be knocked prone. You can choose a number of creatures equal to half your proficiency bonus to automatically succeed on this saving throw. You must finish a resting before you can use this invocation again.</description>
+    </sheet>
+  </element>
+  <element name="Doom Hound" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Doom_Hound">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 7+, Pact of the Chain
+
+As a bonus action, your familiar transforms into a more powerful creature for 1 minute. At 7th level and higher, it transforms into a dire wolf. At 12th level and higher, it transforms into a winter wolf. At 18th level and higher, it transforms into a hound of the night (see Tome of Beasts). You must finish a resting before you can use this invocation on your familiar again.</description>
+    <sheet>
+      <description>Prerequisite: Level 7+, Pact of the Chain
+
+As a bonus action, your familiar transforms into a more powerful creature for 1 minute. At 7th level and higher, it transforms into a dire wolf. At 12th level and higher, it transforms into a winter wolf. At 18th level and higher, it transforms into a hound of the night (see Tome of Beasts). You must finish a resting before you can use this invocation on your familiar again.</description>
+    </sheet>
+  </element>
+  <element name="Earthblood Geyser" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Earthblood_Geyser">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 15+
+
+Tapping the living mind of the world, you call forth retribution from the ground. You can cast magma spray at will, without expending a spell slot or material components.</description>
+    <sheet>
+      <description>Prerequisite: Level 15+
+
+Tapping the living mind of the world, you call forth retribution from the ground. You can cast magma spray at will, without expending a spell slot or material components.</description>
+    </sheet>
+  </element>
+  <element name="Echo of the First Words" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Echo_of_the_First_Words">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 9+
+
+The echo of the first magical utterance reverberates across time, confounding those who hear it. You can cast babble once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    <sheet>
+      <description>Prerequisite: Level 9+
+
+The echo of the first magical utterance reverberates across time, confounding those who hear it. You can cast babble once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Entangling Blast" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Entangling_Blast">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 5+
+
+When you hit a creature with eldritch blast, the creature must succeed on a Dexterity saving throw or be grappled by roots, vines, and other vegetation until the end of its next turn. The DC for this saving throw and to escape this grapple is your spell save DC.</description>
+    <sheet>
+      <description>Prerequisite: Level 5+
+
+When you hit a creature with eldritch blast, the creature must succeed on a Dexterity saving throw or be grappled by roots, vines, and other vegetation until the end of its next turn. The DC for this saving throw and to escape this grapple is your spell save DC.</description>
+    </sheet>
+  </element>
+  <element name="Extinguishing Blast" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Extinguishing_Blast">
+    <supports>EI</supports>
+    <description>When you hit a creature with eldritch blast, you reduce the light surrounding it until the end of your next turn. If the creature is in Vision and Light, the area within 10 feet of it becomes Vision and Light. If the creature is in Vision and Light, the area within 10 feet of it becomes Vision and Light.</description>
+    <sheet>
+      <description>When you hit a creature with eldritch blast, you reduce the light surrounding it until the end of your next turn. If the creature is in Vision and Light, the area within 10 feet of it becomes Vision and Light. If the creature is in Vision and Light, the area within 10 feet of it becomes Vision and Light.</description>
+    </sheet>
+  </element>
+  <element name="Forest-Trained" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Forest_Trained">
+    <supports>EI</supports>
+    <description>You gain proficiency in the Nature and Survival skills.</description>
+    <sheet>
+      <description>You gain proficiency in the Nature and Survival skills.</description>
+    </sheet>
+  </element>
+  <element name="Green Thumb" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Green_Thumb">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 5+
+
+You can cast plant growth once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    <sheet>
+      <description>Prerequisite: Level 5+
+
+You can cast plant growth once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Improved Companion" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Improved_Companion">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 12+
+
+When your patron sends you a beast as part of your Patron Companion feature, you can choose a beast that relates to your patron (as shown in the beast type column in the Animal Lords table) that has a challenge rating of 3 or lower.</description>
+    <sheet>
+      <description>Prerequisite: Level 12+
+
+When your patron sends you a beast as part of your Patron Companion feature, you can choose a beast that relates to your patron (as shown in the beast type column in the Animal Lords table) that has a challenge rating of 3 or lower.</description>
+    </sheet>
+  </element>
+  <element name="Knowledge of the Wood" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Knowledge_of_the_Wood">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 15+
+
+When you are within 5 feet of a body of water in a forest, you can cast scrying on any creature in that forest at will, without expending a warlock spell slot or material components. You must remain within 5 feet of the body of water for the duration or the spell ends.</description>
+    <sheet>
+      <description>Prerequisite: Level 15+
+
+When you are within 5 feet of a body of water in a forest, you can cast scrying on any creature in that forest at will, without expending a warlock spell slot or material components. You must remain within 5 feet of the body of water for the duration or the spell ends.</description>
+    </sheet>
+  </element>
+  <element name="Lurker in Gloom" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Lurker_in_Gloom">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 7+
+
+As a reaction when you take damage while in Vision and Light, you wrap shadows around yourself and have resistance to that instance of damage. Once you use this invocation, you can't use it again until you finish a resting.</description>
+    <sheet>
+      <description>Prerequisite: Level 7+
+
+As a reaction when you take damage while in Vision and Light, you wrap shadows around yourself and have resistance to that instance of damage. Once you use this invocation, you can't use it again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Patient Hunter" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Patient_Hunter">
+    <supports>EI</supports>
+    <description>Prerequisite: Pact of the Tome
+
+When you identify a creature's tracks using your tome, you have advantage on Wisdom (Perception) and Wisdom (Survival) checks to find and track the creature for the next 24 hours.</description>
+    <sheet>
+      <description>Prerequisite: Pact of the Tome
+
+When you identify a creature's tracks using your tome, you have advantage on Wisdom (Perception) and Wisdom (Survival) checks to find and track the creature for the next 24 hours.</description>
+    </sheet>
+  </element>
+  <element name="Primal Link" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Primal_Link">
+    <supports>EI</supports>
+    <description>You can cast animal friendship at will, without expending a spell slot or material components.</description>
+    <sheet>
+      <description>You can cast animal friendship at will, without expending a spell slot or material components.</description>
+    </sheet>
+  </element>
+  <element name="Shadow Arrow" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Shadow_Arrow">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 12+, Pact of the Blade
+
+When you hit a creature with an arrow shot from your pact weapon, you can fire a second, shadow arrow at the creature as a bonus action. If it hits, the shadow arrow deals necrotic damage equal to the damage dealt by the first arrow.</description>
+    <sheet>
+      <description>Prerequisite: Level 12+, Pact of the Blade
+
+When you hit a creature with an arrow shot from your pact weapon, you can fire a second, shadow arrow at the creature as a bonus action. If it hits, the shadow arrow deals necrotic damage equal to the damage dealt by the first arrow.</description>
+    </sheet>
+  </element>
+  <element name="Silent Stalker" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Silent_Stalker">
+    <supports>EI</supports>
+    <description>You gain proficiency in the Stealth and Survival skills.</description>
+    <sheet>
+      <description>You gain proficiency in the Stealth and Survival skills.</description>
+    </sheet>
+  </element>
+  <element name="Speaker for the Trees" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Speaker_for_the_Trees">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 9+
+
+You can cast speak with plants at will without expending a spell slot.</description>
+    <sheet>
+      <description>Prerequisite: Level 9+
+
+You can cast speak with plants at will without expending a spell slot.</description>
+    </sheet>
+  </element>
+  <element name="Touch of the Forest" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Touch_of_the_Forest">
+    <supports>EI</supports>
+    <description>Prerequisite: Level 9+
+
+You can cast awaken once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    <sheet>
+      <description>Prerequisite: Level 9+
+
+You can cast awaken once using a warlock spell slot. You can't do so again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Desert Caravanserai" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Desert_Caravanserai">
+    <supports>Manor</supports>
+    <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Tiny manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '5 acres (2 pasture, 1 minerals, 1 services, 1 water)'], ['Defence:', '+1'], ['Contentment:', '+1'], ['Resource Scores:', 'Cropland —, Forest —, Minerals 12 (+1), Pasture 7 (–2), Services 16 (+3), Water 18 (+4)'], ['Structures:', 'Housing (1)']]}
+This strategic plot of land sits on an oasis in the desert and provides a stopover locale for traveling caravans. It supports itself primarily through access to water and shelter plus the availability of salt and grassland for beasts of burden to graze.</description>
+    <sheet>
+      <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Tiny manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '5 acres (2 pasture, 1 minerals, 1 services, 1 water)'], ['Defence:', '+1'], ['Contentment:', '+1'], ['Resource Scores:', 'Cropland —, Forest —, Minerals 12 (+1), Pasture 7 (–2), Services 16 (+3), Water 18 (+4)'], ['Structures:', 'Housing (1)']]}
+This strategic plot of land sits on an oasis in the desert and provides a stopover locale for traveling caravans. It supports itself primarily through access to water and shelter plus the availability of salt and grassland for beasts of burden to graze.</description>
+    </sheet>
+  </element>
+  <element name="High Country Ranch" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_High_Country_Ranch">
+    <supports>Manor</supports>
+    <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Huge manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '2,500 acres (2,000 pasture, 290 forest, 200 water, 9 minerals, 1 services)'], ['Defence:', '+4'], ['Contentment:', '+2'], ['Resource Scores:', 'Cropland —, Forest 10 (+0), Minerals 14 (+2), Pasture 16 (+3), Services 8 (–1), Water 15 (+2)'], ['Structures:', "Chapel (1), garrison (1), palace (3), plus 13 more points' worth"]]}
+This large estate's main source of income is derived from livestock and a small iron mine. It includes a large ranch house, a small chapel, an outpost to house additional ranch hands or soldiers, and other structures of the characters' choice.</description>
+    <sheet>
+      <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Huge manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '2,500 acres (2,000 pasture, 290 forest, 200 water, 9 minerals, 1 services)'], ['Defence:', '+4'], ['Contentment:', '+2'], ['Resource Scores:', 'Cropland —, Forest 10 (+0), Minerals 14 (+2), Pasture 16 (+3), Services 8 (–1), Water 15 (+2)'], ['Structures:', "Chapel (1), garrison (1), palace (3), plus 13 more points' worth"]]}
+This large estate's main source of income is derived from livestock and a small iron mine. It includes a large ranch house, a small chapel, an outpost to house additional ranch hands or soldiers, and other structures of the characters' choice.</description>
+    </sheet>
+  </element>
+  <element name="Mountain Fortress" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Mountain_Fortress">
+    <supports>Manor</supports>
+    <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Large manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '1,500 acres (1,000 forest, 75 minerals, 20 water, 10 services, 400 barren)'], ['Defence:', '+9'], ['Contentment:', '+6'], ['Resource Scores:', 'Cropland —, Forest 14 (+2), Minerals 12 (+1), Pasture —, Services 16 (+3), Water 10 (+0)'], ['Structures:', "Castle (5), chapel (1), garrison (1), housing (1), market (1), plus 3 more points' worth"]]}
+This manor consists of a strong defensive fortress nestled within high, rocky terrain surrounded by forest at its lower elevations. It derives most of its income from a quarry, timber, and artisanal goods like honey and brews.</description>
+    <sheet>
+      <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Large manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '1,500 acres (1,000 forest, 75 minerals, 20 water, 10 services, 400 barren)'], ['Defence:', '+9'], ['Contentment:', '+6'], ['Resource Scores:', 'Cropland —, Forest 14 (+2), Minerals 12 (+1), Pasture —, Services 16 (+3), Water 10 (+0)'], ['Structures:', "Castle (5), chapel (1), garrison (1), housing (1), market (1), plus 3 more points' worth"]]}
+This manor consists of a strong defensive fortress nestled within high, rocky terrain surrounded by forest at its lower elevations. It derives most of its income from a quarry, timber, and artisanal goods like honey and brews.</description>
+    </sheet>
+  </element>
+  <element name="Pirate's Island" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Pirate_s_Island">
+    <supports>Manor</supports>
+    <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Small manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '80 acres (50 forest, 16 water, 10 pasture, 4 minerals)'], ['Defence:', '+4'], ['Contentment:', '+1'], ['Resource Scores:', 'Cropland —, Forest 16 (+3), Minerals 13 (+1), Pasture 11 (+0), Services —, Water 18 (+4)'], ['Structures:', 'Housing (1), tower (2)']]}
+This manor could be granted to the characters by a local pirate captain as a peace offering or equitable division of pirating waters or by a local magistrate after authorities caught and imprisoned the island's former lord. It includes a single tower high up the side of volcanic slopes, plus numerous tree houses secluded in the jungle canopy, and it sustains itself from fishing, fresh fruits and nuts, and produces income from obsidian and pearl-diving.</description>
+    <sheet>
+      <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Small manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '80 acres (50 forest, 16 water, 10 pasture, 4 minerals)'], ['Defence:', '+4'], ['Contentment:', '+1'], ['Resource Scores:', 'Cropland —, Forest 16 (+3), Minerals 13 (+1), Pasture 11 (+0), Services —, Water 18 (+4)'], ['Structures:', 'Housing (1), tower (2)']]}
+This manor could be granted to the characters by a local pirate captain as a peace offering or equitable division of pirating waters or by a local magistrate after authorities caught and imprisoned the island's former lord. It includes a single tower high up the side of volcanic slopes, plus numerous tree houses secluded in the jungle canopy, and it sustains itself from fishing, fresh fruits and nuts, and produces income from obsidian and pearl-diving.</description>
+    </sheet>
+  </element>
+  <element name="Underground Citadel" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Underground_Citadel">
+    <supports>Manor</supports>
+    <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Small manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '50 acres (38 forest, 5 services, 5 water, 2 minerals)'], ['Defence:', '+4'], ['Contentment:', '+2'], ['Resource Scores:', 'Cropland —, Forest 13 (+1), Minerals 17 (+3), Pasture —, Services 14 (+2), Water 6 (–2)'], ['Structures:', 'Garrison (1), market (1)']]}
+This manor is a cave system within a larger underground realm. It features mines that produce precious metals and gems and a trade center where finished jewelry is sold. It sustains itself on harvesting food from the mushroom forest and the subterranean lake found within its boundaries.</description>
+    <sheet>
+      <description>{'type': 'table', 'isStriped': False, 'colStyles': ['col-10 italic" style="padding-left:0px;'], 'rows': [['Small manor']]}
+{'type': 'table', 'colStyles': ['col-2 bold', 'col-8'], 'rows': [['Size:', '50 acres (38 forest, 5 services, 5 water, 2 minerals)'], ['Defence:', '+4'], ['Contentment:', '+2'], ['Resource Scores:', 'Cropland —, Forest 13 (+1), Minerals 17 (+3), Pasture —, Services 14 (+2), Water 6 (–2)'], ['Structures:', 'Garrison (1), market (1)']]}
+This manor is a cave system within a larger underground realm. It features mines that produce precious metals and gems and a trade center where finished jewelry is sold. It sustains itself on harvesting food from the mushroom forest and the subterranean lake found within its boundaries.</description>
+    </sheet>
+  </element>
+  <element name="Acidum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Acidum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of undoing
+Type: Damage Rune
+Representation: Acid
+Spellcasting Focus: When you use acidum as a spellcasting focus while casting a spell that deals damage that isn't acid, change the spell's damage type to acid. Once used to change the damage type of three spells, acidum can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of undoing
+Type: Damage Rune
+Representation: Acid
+Spellcasting Focus: When you use acidum as a spellcasting focus while casting a spell that deals damage that isn't acid, change the spell's damage type to acid. Once used to change the damage type of three spells, acidum can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Acies" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Acies">
+    <supports>Draconic Runes</supports>
+    <description>The rune of pathways
+Type: Area Rune
+Representation: Line
+Spellcasting Focus: When you use acies as a spellcasting focus while casting a spell that affects a line, you can modify the size of the line. You can increase the line's length by 10 feet or its width by 5 feet.</description>
+    <sheet>
+      <description>The rune of pathways
+Type: Area Rune
+Representation: Line
+Spellcasting Focus: When you use acies as a spellcasting focus while casting a spell that affects a line, you can modify the size of the line. You can increase the line's length by 10 feet or its width by 5 feet.</description>
+    </sheet>
+  </element>
+  <element name="Alchimia" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Alchimia">
+    <supports>Draconic Runes</supports>
+    <description>The rune of transformation
+Type: School Rune
+Representation: Transmutation
+Spellcasting Focus: When you use alchimia as a spellcasting focus while casting a transmutation spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of transformation
+Type: School Rune
+Representation: Transmutation
+Spellcasting Focus: When you use alchimia as a spellcasting focus while casting a transmutation spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Anima" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Anima">
+    <supports>Draconic Runes</supports>
+    <description>The rune of life
+Type: School Rune
+Representation: Necromancy
+Spellcasting Focus: When you use anima as a spellcasting focus while casting a necromancy spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of life
+Type: School Rune
+Representation: Necromancy
+Spellcasting Focus: When you use anima as a spellcasting focus while casting a necromancy spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Cerebrum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Cerebrum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of thought
+Type: Damage Rune
+Representation: Psychic
+Spellcasting Focus: When you use cerebrum as a spellcasting focus while casting a spell that deals damage that isn't psychic, change the spell's damage type to psychic. Once used to change the damage type of three spells, cerebrum can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of thought
+Type: Damage Rune
+Representation: Psychic
+Spellcasting Focus: When you use cerebrum as a spellcasting focus while casting a spell that deals damage that isn't psychic, change the spell's damage type to psychic. Once used to change the damage type of three spells, cerebrum can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Concentio" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Concentio">
+    <supports>Draconic Runes</supports>
+    <description>The rune of music
+Type: Component Rune
+Representation: Somatic
+Spellcasting Focus: When using concentio as a spellcasting focus while casting a spell with a somatic component, you don't need to use a somatic component to cast the spell.</description>
+    <sheet>
+      <description>The rune of music
+Type: Component Rune
+Representation: Somatic
+Spellcasting Focus: When using concentio as a spellcasting focus while casting a spell with a somatic component, you don't need to use a somatic component to cast the spell.</description>
+    </sheet>
+  </element>
+  <element name="Corporis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Corporis">
+    <supports>Draconic Runes</supports>
+    <description>The rune of the body
+Type: Component Rune
+Representation: Material
+Spellcasting Focus: When using corporis as a spellcasting focus while casting a spell with a material component , you don't need to use material components to cast the spell, unless a component has a cost higher than 50 gp (as indicated in the spell's description).</description>
+    <sheet>
+      <description>The rune of the body
+Type: Component Rune
+Representation: Material
+Spellcasting Focus: When using corporis as a spellcasting focus while casting a spell with a material component , you don't need to use material components to cast the spell, unless a component has a cost higher than 50 gp (as indicated in the spell's description).</description>
+    </sheet>
+  </element>
+  <element name="Displodo" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Displodo">
+    <supports>Draconic Runes</supports>
+    <description>The rune of destruction
+Type: School Rune
+Representation: Evocation
+Spellcasting Focus: When you use displodo as a spellcasting focus while casting an evocation spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of destruction
+Type: School Rune
+Representation: Evocation
+Spellcasting Focus: When you use displodo as a spellcasting focus while casting an evocation spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Dubito" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Dubito">
+    <supports>Draconic Runes</supports>
+    <description>The rune of hesitation
+Type: Duration Rune
+Representation: Less than 1 minute
+Spellcasting Focus: When you use dubito as a spellcasting focus while casting a spell with a duration less than 1 minute, double the spell's duration. For example, a spell that lasts 1 round lasts 2 rounds when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    <sheet>
+      <description>The rune of hesitation
+Type: Duration Rune
+Representation: Less than 1 minute
+Spellcasting Focus: When you use dubito as a spellcasting focus while casting a spell with a duration less than 1 minute, double the spell's duration. For example, a spell that lasts 1 round lasts 2 rounds when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    </sheet>
+  </element>
+  <element name="Duo" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Duo">
+    <supports>Draconic Runes</supports>
+    <description>The second rune
+Type: Master Rune
+Representation: 2nd-level spell</description>
+    <sheet>
+      <description>The second rune
+Type: Master Rune
+Representation: 2nd-level spell</description>
+    </sheet>
+  </element>
+  <element name="Frigus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Frigus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of frost
+Type: Damage Rune
+Representation: Cold
+Spellcasting Focus: When you use frigus as a spellcasting focus while casting a spell that deals damage that isn't cold, change the spell's damage type to cold. Once used to change the damage type of three spells, frigus can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of frost
+Type: Damage Rune
+Representation: Cold
+Spellcasting Focus: When you use frigus as a spellcasting focus while casting a spell that deals damage that isn't cold, change the spell's damage type to cold. Once used to change the damage type of three spells, frigus can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Globus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Globus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of perfection
+Type: Area Rune
+Representation: Circle or Sphere
+Spellcasting Focus: When you use globus as a spellcasting focus while casting a spell that affects a circle or sphere, you can increase the circle or sphere's radius by 5 feet.</description>
+    <sheet>
+      <description>The rune of perfection
+Type: Area Rune
+Representation: Circle or Sphere
+Spellcasting Focus: When you use globus as a spellcasting focus while casting a spell that affects a circle or sphere, you can increase the circle or sphere's radius by 5 feet.</description>
+    </sheet>
+  </element>
+  <element name="Gloria" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Gloria">
+    <supports>Draconic Runes</supports>
+    <description>The rune of ambition
+Type: Range Rune
+Representation: 120 feet to 500 feet
+Spellcasting Focus: When you use gloria as a spellcasting focus while casting a spell with a range of 120 to 500 feet, increase the spell's range by half. For example, if you cast a spell that normally has a range of 120 feet, it has a range of 180 feet when you use this rune as a spellcasting focus.</description>
+    <sheet>
+      <description>The rune of ambition
+Type: Range Rune
+Representation: 120 feet to 500 feet
+Spellcasting Focus: When you use gloria as a spellcasting focus while casting a spell with a range of 120 to 500 feet, increase the spell's range by half. For example, if you cast a spell that normally has a range of 120 feet, it has a range of 180 feet when you use this rune as a spellcasting focus.</description>
+    </sheet>
+  </element>
+  <element name="Ignis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Ignis">
+    <supports>Draconic Runes</supports>
+    <description>The rune of flame
+Type: Damage Rune
+Representation: Fire
+Spellcasting Focus: When you use ignis as a spellcasting focus while casting a spell that deals damage that isn't fire, change the spell's damage type to fire. Once used to change the damage type of three spells, ignis can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of flame
+Type: Damage Rune
+Representation: Fire
+Spellcasting Focus: When you use ignis as a spellcasting focus while casting a spell that deals damage that isn't fire, change the spell's damage type to fire. Once used to change the damage type of three spells, ignis can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Impetu" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Impetu">
+    <supports>Draconic Runes</supports>
+    <description>The rune of strength
+Type: Damage Rune
+Representation: Force
+Spellcasting Focus: When you use impetu as a spellcasting focus while casting a spell that deals damage that isn't force, change the spell's damage type to force. Once used to change the damage type of three spells, impetu can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of strength
+Type: Damage Rune
+Representation: Force
+Spellcasting Focus: When you use impetu as a spellcasting focus while casting a spell that deals damage that isn't force, change the spell's damage type to force. Once used to change the damage type of three spells, impetu can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Impulsum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Impulsum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of impact
+Type: Damage Rune
+Representation: Bludgeoning
+Spellcasting Focus: When you use impulsum as a spellcasting focus while casting a spell that deals damage that isn't bludgeoning, change the spell's damage type to bludgeoning. This damage is still magical. Once used to change the damage type of three spells, impulsum can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of impact
+Type: Damage Rune
+Representation: Bludgeoning
+Spellcasting Focus: When you use impulsum as a spellcasting focus while casting a spell that deals damage that isn't bludgeoning, change the spell's damage type to bludgeoning. This damage is still magical. Once used to change the damage type of three spells, impulsum can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Incrementum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Incrementum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of expansion
+Type: Area Rune
+Representation: Cone
+Spellcasting Focus: When you use incrementum as a spellcasting focus while casting a spell that affects a cone, you can increase the cone's size by 5 feet, if it is a 1st- through 4th-level spell, or by 10 feet, if it is a 5th- through 9th-level spell.</description>
+    <sheet>
+      <description>The rune of expansion
+Type: Area Rune
+Representation: Cone
+Spellcasting Focus: When you use incrementum as a spellcasting focus while casting a spell that affects a cone, you can increase the cone's size by 5 feet, if it is a 1st- through 4th-level spell, or by 10 feet, if it is a 5th- through 9th-level spell.</description>
+    </sheet>
+  </element>
+  <element name="Iuxta" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Iuxta">
+    <supports>Draconic Runes</supports>
+    <description>The rune of reach
+Type: Range Rune
+Representation: 60 feet to 90 feet
+Spellcasting Focus: When you use iuxta as a spellcasting focus while casting a spell with a range of 60 to 90 feet, increase the spell's range by half. For example, if you cast a spell that normally has a range of 60 feet, it has a range of 90 feet when you use this rune as a spellcasting focus.</description>
+    <sheet>
+      <description>The rune of reach
+Type: Range Rune
+Representation: 60 feet to 90 feet
+Spellcasting Focus: When you use iuxta as a spellcasting focus while casting a spell with a range of 60 to 90 feet, increase the spell's range by half. For example, if you cast a spell that normally has a range of 60 feet, it has a range of 90 feet when you use this rune as a spellcasting focus.</description>
+    </sheet>
+  </element>
+  <element name="Laporem" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Laporem">
+    <supports>Draconic Runes</supports>
+    <description>The rune of the mind
+Type: School Rune
+Representation: Enchantment
+Spellcasting Focus: When you use laporem as a spellcasting focus while casting an enchantment spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of the mind
+Type: School Rune
+Representation: Enchantment
+Spellcasting Focus: When you use laporem as a spellcasting focus while casting an enchantment spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Lux" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Lux">
+    <supports>Draconic Runes</supports>
+    <description>The rune of light
+Type: Damage Rune
+Representation: Radiant
+Spellcasting Focus: When you use lux as a spellcasting focus while casting a spell that deals damage that isn't radiant, change the spell's damage type to radiant. Once used to change the damage type of three spells, lux can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of light
+Type: Damage Rune
+Representation: Radiant
+Spellcasting Focus: When you use lux as a spellcasting focus while casting a spell that deals damage that isn't radiant, change the spell's damage type to radiant. Once used to change the damage type of three spells, lux can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Mensis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Mensis">
+    <supports>Draconic Runes</supports>
+    <description>The rune of seasons
+Type: Duration Rune
+Representation: 2 Days – 30 Days
+Spellcasting Focus: When you use mensis as a spellcasting focus while casting a spell with a duration of 2 to 30 days, increase the spell's duration by half. For example, a spell that lasts 2 days lasts 3 days when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    <sheet>
+      <description>The rune of seasons
+Type: Duration Rune
+Representation: 2 Days – 30 Days
+Spellcasting Focus: When you use mensis as a spellcasting focus while casting a spell with a duration of 2 to 30 days, increase the spell's duration by half. For example, a spell that lasts 2 days lasts 3 days when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    </sheet>
+  </element>
+  <element name="Morbus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Morbus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of sickness
+Type: Damage Rune
+Representation: Poison
+Spellcasting Focus: When you use morbus as a spellcasting focus while casting a spell that deals damage that isn't poison, change the spell's damage type to poison. Once used to change the damage type of three spells, morbus can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of sickness
+Type: Damage Rune
+Representation: Poison
+Spellcasting Focus: When you use morbus as a spellcasting focus while casting a spell that deals damage that isn't poison, change the spell's damage type to poison. Once used to change the damage type of three spells, morbus can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Novem" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Novem">
+    <supports>Draconic Runes</supports>
+    <description>The ninth rune
+Type: Master Rune
+Representation: 9th-level spell</description>
+    <sheet>
+      <description>The ninth rune
+Type: Master Rune
+Representation: 9th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Occasus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Occasus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of transition
+Type: Duration Rune
+Representation: 1 hour to 8 hours
+Spellcasting Focus: When you use occasus as a spellcasting focus while casting a spell with a duration of 1 to 8 hours, increase the spell's duration by half. For example, a spell that lasts 1 hour lasts 1 and a half hours when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    <sheet>
+      <description>The rune of transition
+Type: Duration Rune
+Representation: 1 hour to 8 hours
+Spellcasting Focus: When you use occasus as a spellcasting focus while casting a spell with a duration of 1 to 8 hours, increase the spell's duration by half. For example, a spell that lasts 1 hour lasts 1 and a half hours when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    </sheet>
+  </element>
+  <element name="Octum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Octum">
+    <supports>Draconic Runes</supports>
+    <description>The eighth rune
+Type: Master Rune
+Representation: 8th-level spell</description>
+    <sheet>
+      <description>The eighth rune
+Type: Master Rune
+Representation: 8th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Orotorem" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Orotorem">
+    <supports>Draconic Runes</supports>
+    <description>The rune of language
+Type: Component Rune
+Representation: Verbal
+Spellcasting Focus: When using orotorem as a spellcasting focus while casting a spell with a verbal component, you don't need to use a verbal component to cast the spell.</description>
+    <sheet>
+      <description>The rune of language
+Type: Component Rune
+Representation: Verbal
+Spellcasting Focus: When using orotorem as a spellcasting focus while casting a spell with a verbal component, you don't need to use a verbal component to cast the spell.</description>
+    </sheet>
+  </element>
+  <element name="Pario" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Pario">
+    <supports>Draconic Runes</supports>
+    <description>The rune of creation
+Type: School Rune
+Representation: Conjuration
+Spellcasting Focus: When you use pario as a spellcasting focus while casting a conjuration spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of creation
+Type: School Rune
+Representation: Conjuration
+Spellcasting Focus: When you use pario as a spellcasting focus while casting a conjuration spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Praxis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Praxis">
+    <supports>Draconic Runes</supports>
+    <description>The rune of hypotheticals
+Type: Duration Rune
+Representation: Until Dispelled or Triggered
+Spellcasting Focus: When you use praxis as a spellcasting focus while casting a spell that lasts until dispelled or triggered, you don't have to expend a spell slot to cast the spell. Once used, praxis can't be used in this way again until 24 hours have passed.</description>
+    <sheet>
+      <description>The rune of hypotheticals
+Type: Duration Rune
+Representation: Until Dispelled or Triggered
+Spellcasting Focus: When you use praxis as a spellcasting focus while casting a spell that lasts until dispelled or triggered, you don't have to expend a spell slot to cast the spell. Once used, praxis can't be used in this way again until 24 hours have passed.</description>
+    </sheet>
+  </element>
+  <element name="Proelium" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Proelium">
+    <supports>Draconic Runes</supports>
+    <description>The rune of combat
+Type: Duration Rune
+Representation: 1 minute to 59 minutes
+Spellcasting Focus: When you use proelium as a spellcasting focus while casting a spell with a duration of 1 to 10 minutes, double the spell's duration. For example, a spell that lasts 1 minute lasts 2 minutes when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    <sheet>
+      <description>The rune of combat
+Type: Duration Rune
+Representation: 1 minute to 59 minutes
+Spellcasting Focus: When you use proelium as a spellcasting focus while casting a spell with a duration of 1 to 10 minutes, double the spell's duration. For example, a spell that lasts 1 minute lasts 2 minutes when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    </sheet>
+  </element>
+  <element name="Proxime" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Proxime">
+    <supports>Draconic Runes</supports>
+    <description>The rune of proximity
+Type: Range Rune
+Representation: 5 feet to 30 feet
+Spellcasting Focus: When you use proxime as a spellcasting focus while casting a spell with a range of 5 to 30 feet, you don't need to see your target to cast the spell, even if the spell normally requires you to see the target. You must still be aware of the target's presence or existence within range.</description>
+    <sheet>
+      <description>The rune of proximity
+Type: Range Rune
+Representation: 5 feet to 30 feet
+Spellcasting Focus: When you use proxime as a spellcasting focus while casting a spell with a range of 5 to 30 feet, you don't need to see your target to cast the spell, even if the spell normally requires you to see the target. You must still be aware of the target's presence or existence within range.</description>
+    </sheet>
+  </element>
+  <element name="Prudentia" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Prudentia">
+    <supports>Draconic Runes</supports>
+    <description>The rune of foresight
+Type: School Rune
+Representation: Divination
+Spellcasting Focus: When you use prudentia as a spellcasting focus while casting a divination spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of foresight
+Type: School Rune
+Representation: Divination
+Spellcasting Focus: When you use prudentia as a spellcasting focus while casting a divination spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Putredine" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Putredine">
+    <supports>Draconic Runes</supports>
+    <description>The rune of decay
+Type: Damage Rune
+Representation: Necrotic
+Spellcasting Focus: When you use putredine as a spellcasting focus while casting a spell that deals damage that isn't necrotic, change the spell's damage type to necrotic. Once used to change the damage type of three spells, putredine can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of decay
+Type: Damage Rune
+Representation: Necrotic
+Spellcasting Focus: When you use putredine as a spellcasting focus while casting a spell that deals damage that isn't necrotic, change the spell's damage type to necrotic. Once used to change the damage type of three spells, putredine can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Quadratum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Quadratum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of confinement
+Type: Area Rune
+Representation: Cube
+Spellcasting Focus: When you use quadratum as a spellcasting focus while casting a spell that affects a cube, you can increase the cube's size by 5 feet.</description>
+    <sheet>
+      <description>The rune of confinement
+Type: Area Rune
+Representation: Cube
+Spellcasting Focus: When you use quadratum as a spellcasting focus while casting a spell that affects a cube, you can increase the cube's size by 5 feet.</description>
+    </sheet>
+  </element>
+  <element name="Quadro" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Quadro">
+    <supports>Draconic Runes</supports>
+    <description>The fourth rune
+Type: Master Rune
+Representation: 4th-level spell</description>
+    <sheet>
+      <description>The fourth rune
+Type: Master Rune
+Representation: 4th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Quintus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Quintus">
+    <supports>Draconic Runes</supports>
+    <description>The fifth rune
+Type: Master Rune
+Representation: 5th-level spell</description>
+    <sheet>
+      <description>The fifth rune
+Type: Master Rune
+Representation: 5th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Scopum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Scopum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of precision
+Type: Damage Rune
+Representation: Slashing
+Spellcasting Focus: When you use scopum as a spellcasting focus while casting a spell that deals damage that isn't slashing, change the spell's damage type to slashing. This damage is still magical. Once used to change the damage type of three spells, scopum can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of precision
+Type: Damage Rune
+Representation: Slashing
+Spellcasting Focus: When you use scopum as a spellcasting focus while casting a spell that deals damage that isn't slashing, change the spell's damage type to slashing. This damage is still magical. Once used to change the damage type of three spells, scopum can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Septem" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Septem">
+    <supports>Draconic Runes</supports>
+    <description>The seventh rune
+Type: Master Rune
+Representation: 7th-level spell</description>
+    <sheet>
+      <description>The seventh rune
+Type: Master Rune
+Representation: 7th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Sextus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Sextus">
+    <supports>Draconic Runes</supports>
+    <description>The sixth rune
+Type: Master Rune
+Representation: 6th-level spell</description>
+    <sheet>
+      <description>The sixth rune
+Type: Master Rune
+Representation: 6th-level spell</description>
+    </sheet>
+  </element>
+  <element name="Solis" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Solis">
+    <supports>Draconic Runes</supports>
+    <description>The rune of stars
+Type: Duration Rune
+Representation: 9 hours to 24 hours
+Spellcasting Focus: When you use solis as a spellcasting focus while casting a spell with a duration of 9 to 24 hours, increase the spell's duration by half. For example, a spell that lasts 8 hours lasts 12 hours when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    <sheet>
+      <description>The rune of stars
+Type: Duration Rune
+Representation: 9 hours to 24 hours
+Spellcasting Focus: When you use solis as a spellcasting focus while casting a spell with a duration of 9 to 24 hours, increase the spell's duration by half. For example, a spell that lasts 8 hours lasts 12 hours when you use this rune as a spellcasting focus. If the spell requires concentration, you must still maintain concentration.</description>
+    </sheet>
+  </element>
+  <element name="Statua" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Statua">
+    <supports>Draconic Runes</supports>
+    <description>The rune of support
+Type: Area Rune
+Representation: Cylinder
+Spellcasting Focus: When you use statua as a spellcasting focus while casting a spell that affects a cylinder, you can increase the cylinder's height by 10 feet or its radius by 5 feet.</description>
+    <sheet>
+      <description>The rune of support
+Type: Area Rune
+Representation: Cylinder
+Spellcasting Focus: When you use statua as a spellcasting focus while casting a spell that affects a cylinder, you can increase the cylinder's height by 10 feet or its radius by 5 feet.</description>
+    </sheet>
+  </element>
+  <element name="Subita" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Subita">
+    <supports>Draconic Runes</supports>
+    <description>The rune of ending
+Type: Duration Rune
+Representation: Instantaneous
+Spellcasting Focus: When you use subita as a spellcasting focus while casting a spell with a duration of instantaneous and a casting time of 1 action, you can cast the spell as a bonus action. Once used, subita can't be used in this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of ending
+Type: Duration Rune
+Representation: Instantaneous
+Spellcasting Focus: When you use subita as a spellcasting focus while casting a spell with a duration of instantaneous and a casting time of 1 action, you can cast the spell as a bonus action. Once used, subita can't be used in this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Sui" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Sui">
+    <supports>Draconic Runes</supports>
+    <description>The rune of self
+Type: Range Rune
+Representation: Self
+Spellcasting Focus: When you use sui as a spellcasting focus while casting a spell with a range of self, you don't need to use somatic or verbal components to cast the spell.</description>
+    <sheet>
+      <description>The rune of self
+Type: Range Rune
+Representation: Self
+Spellcasting Focus: When you use sui as a spellcasting focus while casting a spell with a range of self, you don't need to use somatic or verbal components to cast the spell.</description>
+    </sheet>
+  </element>
+  <element name="Tactus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Tactus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of transference
+Type: Range Rune
+Representation: Touch
+Spellcasting Focus: When you use tactus as a spellcasting focus while casting a spell with a range of touch, the spell has a chance to affect multiple targets. Roll a d100. On a roll of 51 or higher, the spell affects one additional creature within 5 feet of your target (excluding yourself). If there are multiple creatures within 5 feet of the target, you choose which additional creature is affected.</description>
+    <sheet>
+      <description>The rune of transference
+Type: Range Rune
+Representation: Touch
+Spellcasting Focus: When you use tactus as a spellcasting focus while casting a spell with a range of touch, the spell has a chance to affect multiple targets. Roll a d100. On a roll of 51 or higher, the spell affects one additional creature within 5 feet of your target (excluding yourself). If there are multiple creatures within 5 feet of the target, you choose which additional creature is affected.</description>
+    </sheet>
+  </element>
+  <element name="Tempestas" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Tempestas">
+    <supports>Draconic Runes</supports>
+    <description>The rune of storms
+Type: Damage Rune
+Representation: Lightning
+Spellcasting Focus: When you use tempestas as a spellcasting focus while casting a spell that deals damage that isn't lightning, change the spell's damage type to lightning. Once used to change the damage type of three spells, tempestas can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of storms
+Type: Damage Rune
+Representation: Lightning
+Spellcasting Focus: When you use tempestas as a spellcasting focus while casting a spell that deals damage that isn't lightning, change the spell's damage type to lightning. Once used to change the damage type of three spells, tempestas can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Terra" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Terra">
+    <supports>Draconic Runes</supports>
+    <description>The rune of land
+Type: Range Rune
+Representation: 1 mile or farther
+Spellcasting Focus: When you use terra as a spellcasting focus while casting a spell with a range of 1 mile or more, increase the spell's range by half. For example, if you cast a spell that normally has a range of 1 mile, it has a range of 1 and a half miles when you use this rune as a spellcasting focus.</description>
+    <sheet>
+      <description>The rune of land
+Type: Range Rune
+Representation: 1 mile or farther
+Spellcasting Focus: When you use terra as a spellcasting focus while casting a spell with a range of 1 mile or more, increase the spell's range by half. For example, if you cast a spell that normally has a range of 1 mile, it has a range of 1 and a half miles when you use this rune as a spellcasting focus.</description>
+    </sheet>
+  </element>
+  <element name="Tertious" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Tertious">
+    <supports>Draconic Runes</supports>
+    <description>The third rune
+Type: Master Rune
+Representation: 3rd-level spell</description>
+    <sheet>
+      <description>The third rune
+Type: Master Rune
+Representation: 3rd-level spell</description>
+    </sheet>
+  </element>
+  <element name="Tumultum" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Tumultum">
+    <supports>Draconic Runes</supports>
+    <description>The rune of sound
+Type: Damage Rune
+Representation: Thunder
+Spellcasting Focus: When you use tumultum as a spellcasting focus while casting a spell that deals damage that isn't thunder, change the spell's damage type to thunder. Once used to change the damage type of three spells, tumultum can't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of sound
+Type: Damage Rune
+Representation: Thunder
+Spellcasting Focus: When you use tumultum as a spellcasting focus while casting a spell that deals damage that isn't thunder, change the spell's damage type to thunder. Once used to change the damage type of three spells, tumultum can't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+  <element name="Tutela" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Tutela">
+    <supports>Draconic Runes</supports>
+    <description>The rune of defense
+Type: School Rune
+Representation: Abjuration
+Spellcasting Focus: When you use tutela as a spellcasting focus while casting an abjuration spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of defense
+Type: School Rune
+Representation: Abjuration
+Spellcasting Focus: When you use tutela as a spellcasting focus while casting an abjuration spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Umbra" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Umbra">
+    <supports>Draconic Runes</supports>
+    <description>The rune of deception
+Type: School Rune
+Representation: Illusion
+Spellcasting Focus: When you use umbra as a spellcasting focus while casting an illusion spell, increase the spell save DC and spell attack modifier by 1.</description>
+    <sheet>
+      <description>The rune of deception
+Type: School Rune
+Representation: Illusion
+Spellcasting Focus: When you use umbra as a spellcasting focus while casting an illusion spell, increase the spell save DC and spell attack modifier by 1.</description>
+    </sheet>
+  </element>
+  <element name="Unus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Unus">
+    <supports>Draconic Runes</supports>
+    <description>The first rune
+Type: Master Rune
+Representation: 1st-level spell</description>
+    <sheet>
+      <description>The first rune
+Type: Master Rune
+Representation: 1st-level spell</description>
+    </sheet>
+  </element>
+  <element name="Vulnus" type="Archetype Feature" source="ToH" id="ID_ToH_OPTION_Vulnus">
+    <supports>Draconic Runes</supports>
+    <description>The rune of fixation
+Type: Damage Rune
+Representation: Piercing
+Spellcasting Focus: When you use vulnus as a spellcasting focus while casting a spell that deals damage that isn't piercing, change the spell's damage type to piercing. This damage is still magical. Once used to change the damage type of three spells, vulnuscan't be used this way again until you finish a resting.</description>
+    <sheet>
+      <description>The rune of fixation
+Type: Damage Rune
+Representation: Piercing
+Spellcasting Focus: When you use vulnus as a spellcasting focus while casting a spell that deals damage that isn't piercing, change the spell's damage type to piercing. This damage is still magical. Once used to change the damage type of three spells, vulnuscan't be used this way again until you finish a resting.</description>
+    </sheet>
+  </element>
+</elements>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<index>
+  <info>
+    <name>Tome of Heroes (ToH)</name>
+    <description>Aurora Builder conversion of Tome of Heroes: subclasses, spells, feats, magic items, and optional features (no monsters).</description>
+    <author>Kobold Press (conversion by SageZeMage)</author>
+    <update version="1.0.0">
+      <file name="toh.index" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh.index" />
+    </update>
+  </info>
+  <files>
+    <file name="toh-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-source.xml" />
+    <file name="toh-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-subclasses.xml" />
+    <file name="toh-spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-spells.xml" />
+    <file name="toh-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-feats.xml" />
+    <file name="toh-items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-items.xml" />
+    <file name="toh-optional-features.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-optional-features.xml" />
+  </files>
+</index>
