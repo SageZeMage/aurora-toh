@@ -14,6 +14,7 @@ Version: 1.0
 Link: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</description>
     <setters>
       <set name="url">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
+      <set name="abbreviation">ToH</set>
     </setters>
   </element>
 </elements>
