@@ -14,7 +14,7 @@
       <description>While you carry this, you don't need food, drink, or sleep. Once, as an action, gain the effects of a potion of heroism; the item then loses its magic.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -35,7 +35,7 @@ Cultivated Wort. A garden of alseid peonies cultivated for at least 4 weeks whis
       <description>Living peony of secrets. Minor: tear a bloom to summon an awakened-shrub bloomling for 1 hour. Ceremony: petal-arrow points toward a location, clumping if a major obstacle lies in the way. Cultivated: a 4-week garden repeats every word ever spoken within it and blocks zone of truth within 100 ft.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -54,7 +54,7 @@ Cultivated Wort (9th Level). A garden of asphodel cultivated for at least 12 wee
       <description>Funeral flower. Minor: see the last minute of a corpse’s life, risking 1 level of exhaustion (Con DC 15). Ceremony: bury a prized item to gain advantage on death saves for 4 hours. Cultivated: a 12-week garden can resurrect one non-old-age corpse (up to 1 year + 1 day dead), then withers for 10 years.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -73,7 +73,7 @@ Cultivated Wort (9th Level). A garden of bright bishop sage cultivated for at le
       <description>Holy sage. Minor: burn a bundle to protect a creature, doorway, or object as protection from evil and good vs celestials/fiends/undead. Ceremony: purify up to 6 servings of food/drink. Cultivated: 8-week garden blocks aberrations, elementals, fey, fiends, and undead within 15 ft, and prevents corpses there from becoming undead.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -92,7 +92,7 @@ Cultivated Wort (5th Level). A garden of champion's lavender cultivated for at l
       <description>Lavender of oaths. Minor: touch to let a creature spend a Hit Die or attempt to remove 1 level of exhaustion (Con DC 13). Ceremony: lavender smoke wards a 40–80 ft cube, outlining invisible creatures and alerting those who helped ward. Cultivated: 4-week garden marks serious oathbreakers and harmful deceivers with a purple sign until they leave or atone.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -111,7 +111,7 @@ Cultivated Wort (8th Level). A garden of chaunic clover cultivated for at least 
       <description>Fey-luck clover. Minor: gamble up to 99 c/s—on a high d100 you double the coins, on 100 you double and upgrade to gold, on 1 you lose them all and attract a fey’s notice. Ceremony: summon a personal extradimensional coin-only cauldron. Cultivated: 4-week garden doubles crop yields and improves plant health and temperament within 1 mile.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -130,7 +130,7 @@ Cultivated Wort (5th Level). A garden of emperor's garlic cultivated for at leas
       <description>Imperial garlic. Minor: eat a clove for 1 hour of poison resistance (or immunity if you already had resistance) and advantage vs poison, but disadvantage on Deception/Persuasion. Ceremony: multi-caster 1-minute exorcism that functions as dispel evil and good (break enchantment). Cultivated: 4-week garden forces nearby undead (within 100 ft) to save or be turned each round.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -149,7 +149,7 @@ Cultivated Wort. A garden of far traveler’s freesia cultivated for at least 4 
       <description>Wanderer’s freesia. Minor: gift it to potentially turn a hostile creature indifferent (beasts Int 3 or lower have disadvantage). Ceremony: holy-water freesia blesses 1 + PB creatures with advantage vs exhaustion and 1d6 temp HP for 8 hours. Cultivated: 4-week garden grants local moths and butterflies Int 6 and speech (Common + one language), making them helpful guides.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -168,7 +168,7 @@ Cultivated Wort (9th Level). A garden of fiery snapdragon cultivated for at leas
       <description>Dragon-flame flowers. Minor: torch + sprig = fire resistance; snuff the torch (bonus action) to gain 1 round of fire immunity and destroy the torch. Ceremony: 10-minute bonfire ritual raises a creature’s Strength to 25 for 1 hour. Cultivated: 4-week garden forces nearby dragons (150 ft) to save or be turned; other draconic creatures save with advantage.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -187,7 +187,7 @@ Cultivated Wort (4th Level). A garden of gazing hydrangea cultivated for at leas
       <description>Mind-ward hydrangea. Minor: throw petals to force a creature (Charisma save) to drop attunement to a random item. Ceremony: 1-hour flower crown grants psychic resistance and blocks mind-reading (e.g. detect thoughts) for 8 hours. Cultivated: 4-week garden makes ritual divinations free of components and doubles their duration.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -206,7 +206,7 @@ Cultivated Wort. A garden of hoary valerian cultivated for 4 weeks causes humano
       <description>Dream valerian. Minor: blow crushed leaves for a sleep effect (Con save or unconscious 1d10 minutes, ending on damage or being shaken awake). Ceremony: 4-hour “super long rest” ring that doubles Hit Dice recovery (9th-level wort). Cultivated: 4-week garden links local sleepers into occasional shared, sometimes prophetic, lucid dreams.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -225,7 +225,7 @@ Cultivated Wort. A garden of merchant’s mint cultivated for at least 12 weeks 
       <description>Trader’s mint. Minor: chew a sprig to self-cast comprehend languages while it stays under your tongue. Ceremony: burn names + mint to summon a pseudodragon-style arbitrator for up to 1 hour. Cultivated: 12-week garden keeps fields fertile, harvests rich, and grazing livestock disease-free within 5 miles.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -244,7 +244,7 @@ Cultivated Wort. A garden of mirthy hops cultivated for at least 4 weeks protect
       <description>Hops of hilarity. Minor: eat a bud to triple your jump distance for 1 minute; observers must save or giggle and suffer disadvantage on their next attack/check. Ceremony: 11th-level ritual summons a conjure fey ally that demands a drinking game first. Cultivated: 4-week garden grants advantage vs fear and disadvantage on Intimidation within 1 mile.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -263,7 +263,7 @@ Cultivated Wort (7th Level). A garden of nimbus daffodil cultivated for 5 weeks 
       <description>Weather daffodil. Minor: snap a stem to cast a 20-ft radius fog cloud centered on you. Ceremony: 6th-level rain-summoning dance that buffs water/weather spells’ range or duration and waters the land. Cultivated: 5-week garden keeps a 5-mile area pleasantly sunny with gentle daily precipitation (still lethal to sunlight-vulnerable creatures).</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -282,7 +282,7 @@ Cultivated Wort (9th Level). A garden of old elvish roses cultivated for at leas
       <description>Elven rose. Minor: swipe across a slashing weapon to add 1d6 piercing damage for 1 minute. Ceremony: rose-infused bath grants advantage vs charm and fright (or immunity if you already had advantage) until your next rest. Cultivated: 26-week garden functions as a large calm emotions zone and can force hostiles in/near it to become indifferent on a Charisma save.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -301,7 +301,7 @@ Cultivated Wort (5th Level). A garden of wolfsbane cultivated for at least 8 wee
       <description>Moonbane. Minor: petals forcibly revert petrified or polymorphed creatures/objects (Charisma save to resist if unwilling). Ceremony: 7th-level full-moon ritual lets up to 6 creatures polymorph into dire wolves while keeping their mental stats until dawn or 0 HP. Cultivated: 8-week garden can cure lycanthropy, but the patient must survive death saves during treatment or die as the curse is ripped out.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -331,7 +331,7 @@ While wearing or carrying the beads, you can use a bonus action to remove any nu
       <description>Ki-storage beads (max 8 ki). After a rest, you can invest ki equal to half your PB. Bonus action: pull any amount of stored ki back into yourself.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -343,7 +343,7 @@ While wearing or carrying the beads, you can use a bonus action to remove any nu
       <description>Sludgy red potion. For 1 minute your speed is tripled, but each time you Dash you take 2d6 poison damage.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Potion</set>
     </setters>
@@ -359,7 +359,7 @@ The tent has 50 hit points, immunity to nonmagical attacks (except siege weapons
       <description>Collapsible magic field tent cube. Action: deploy 15×15×10 ft tent (DC 15 Dex save vs 5d10 bludgeoning for creatures/objects in its space). 50 HP, immune to nonmagical attacks (except siege), resistant to others. Holds 6 Medium creatures; resting inside doubles Hit Die healing, reduces exhaustion by 2, and grants advantage vs disease/poison.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -371,7 +371,7 @@ The tent has 50 hit points, immunity to nonmagical attacks (except siege weapons
       <description>Padded wraps. Your unarmed strikes gain a +1 bonus to attack and damage rolls.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -383,7 +383,7 @@ The tent has 50 hit points, immunity to nonmagical attacks (except siege weapons
       <description>Padded wraps. Your unarmed strikes gain a +2 bonus to attack and damage rolls.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -395,7 +395,7 @@ The tent has 50 hit points, immunity to nonmagical attacks (except siege weapons
       <description>Padded wraps. Your unarmed strikes gain a +3 bonus to attack and damage rolls.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -409,7 +409,7 @@ If the cilice would reduce you to 0 hit points, you instead drop to 1 hit point 
       <description>Self-punishing chain. Action: activate to take 1d6 piercing damage at the start of each of your turns until ended (bonus action). For every 5 damage dealt, you regain 1 ki. If it would drop you to 0 HP, you stay at 1 HP and the effect ends; then can’t be used again until dawn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -425,7 +425,7 @@ Writhing Tentacles. While wearing the cloak, you can use a bonus action to comma
       <description>Tentacled cloak. 1/day action: flash the inner lining to force nearby creatures (10 ft, sight) to save vs DC 15 Wis or be incapacitated until end of their next turn. 1/day bonus action: sprout 4 reactive tentacles for 1 minute; on each melee hit against you within 10 ft, a tentacle counterattacks (+7, 2d10 bludgeoning) then goes inert.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -437,7 +437,7 @@ Writhing Tentacles. While wearing the cloak, you can use a bonus action to comma
       <description>Rune-stone wraps. While worn, your ki save DC increases by 2.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -449,7 +449,7 @@ Writhing Tentacles. While wearing the cloak, you can use a bonus action to comma
       <description>Silver spurs. While mounted, you gain +1 to initiative, your mount’s AC +2, and both of you have advantage on Con saves vs travel-induced exhaustion (over 8 hours).</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -463,7 +463,7 @@ In addition, when a friendly creature within 5 feet of you is hit by a ranged we
       <description>Monk archer’s gloves. When you Deflect Missiles, you can spend 1 ki to reduce damage by 1d10 + Dex mod + 2× monk level, and if you throw it back (1 ki) you get a 30/120 ft range. You can also Deflect Missiles for adjacent allies hit by ranged weapon attacks.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -475,7 +475,7 @@ In addition, when a friendly creature within 5 feet of you is hit by a ranged we
       <description>Heavy rune wraps. Increases your Martial Arts die by one step while making unarmed strikes.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -493,7 +493,7 @@ Deadbane. While holding this lantern, you can use an action and expend 1 or more
       <description>Crystal heartglow lantern. Action: activate 20-ft bright / 20-ft dim light. Creatures can invest HP max (PB) to give the lantern that many charges (HP max returns after a rest). Deadbane mode: expend 1+ charges to detect undead within 20 ft for 1 hour (blue light, brighter when closer); each extra charge adds 30 minutes and +5 ft detect range.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -509,7 +509,7 @@ Floodmote. If you are submerged while holding or carrying this lantern, you can 
       <description>Floodmote heartglow lantern. Functions like other heartglow lanterns for light and vitality charges. While submerged, reaction + 1+ charges: create an air bubble for yourself for 1 hour; each extra charge adds 1 hour and grants an additional bubble for a creature within 30 ft.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -525,7 +525,7 @@ Tumblesafe. If you or a friendly creature you can see within 40 feet falls while
       <description>Tumblesafe heartglow lantern. Normal heartglow light + vitality-charge rules. Reaction when a nearby ally/you falls: spend 1+ charges to make all creatures/objects in the light descend at 60 ft/round and take no falling damage until they land; extra charges extend the light radius by 5 ft each.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -555,7 +555,7 @@ Knight's Livery. While attuned to and wearing both the knight-sergeant's surcoat
       <description>Knight’s surcoat. Grants advantage on Animal Handling with horses and on Persuasion checks to higher-status humanoids. If attuned to this and an argent mantle, your Charisma becomes 20 (no effect if already 20+).</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -569,7 +569,7 @@ First Aid. The sash has 3 charges. While wearing it, you can expend 1 charge as 
       <description>Field medic’s sash. Doubles your carrying capacity, and you don’t provoke opportunity attacks while carrying an ally at 0 HP or dying. 3 charges/day: 1 charge to cast spare the dying, 2 charges to cast cure wounds (Cha-based).</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -593,7 +593,7 @@ First Aid. The sash has 3 charges. While wearing it, you can expend 1 charge as 
       <description>Partner’s gauntlets. If you and an ally each wear one and are both within 5 ft of the same foe, you both have advantage on the first attack you make against that creature on each of your turns.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -619,7 +619,7 @@ This belt has one band. While wearing it, you can use an action to speak its com
       <description>Belt with 1 crystal band. Action: pour a potion onto the band to store it. While worn, action + command word: gain the stored potion’s effects as if you drank it.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Common</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -633,7 +633,7 @@ This belt has three bands. While wearing it, you can use a bonus action to speak
       <description>Belt with 3 crystal bands. Action: load each band with a potion. While worn, bonus action + command word + potion name: gain that potion’s effects as if drunk.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -650,7 +650,7 @@ When the duration ends, you are stunned until the end of your next turn as your 
       <description>Deep purple mind-warp potion. For 1 hour: 60-ft blindsight, reroll natural 1s on checks/saves/attacks, and see into the Ethereal Plane. When it ends, you are stunned until the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Magic Item</set>
+      <set name="type">Potions</set>
       <set name="rarity">Very Rare</set>
       <set name="type">Potion</set>
     </setters>
