@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
     <name>Tome of Heroes — Source</name>
-    <description>Source definition for Tome of Heroes (ToH) content.</description>
+    <description>Source definition for Tome of Heroes (ToH) from Kobold Press.</description>
+    <author>Nassim Guetiteni</author>
     <update version="1.0.0">
       <file name="toh-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-toh/main/toh-source.xml" />
     </update>
   </info>
-  <element name="Tome of Heroes" type="Source" source="ToH" id="ID_ToH_SOURCE">
-    <description>Tome of Heroes (ToH)
-Authors: Kobold Press
-Version: 1.0
-Link: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</description>
+
+  <element name="Tome of Heroes"
+           type="Source"
+           source="Tome of Heroes"
+           id="ID_TOH_SOURCE_TOME_OF_HEROES">
+    <description>
+      <![CDATA[
+Tome of Heroes is a Kobold Press player-facing expansion featuring new races, subclasses, feats, backgrounds, spells, and more.
+      ]]>
+    </description>
     <setters>
-      <set name="url">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
       <set name="abbreviation">ToH</set>
+      <set name="url">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
+      <set name="author">Kobold Press</set>
     </setters>
   </element>
 </elements>
